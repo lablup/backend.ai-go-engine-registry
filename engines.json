@@ -7,7 +7,7 @@
       "id": "llama-cpp",
       "name": "llama.cpp",
       "description": "High-performance inference engine for GGUF models with support for Metal, CUDA, and CPU backends",
-      "latestVersion": "b4618",
+      "latestVersion": "b7681",
       "modelFormats": ["gguf"],
       "packages": [
         {
@@ -15,7 +15,7 @@
           "arch": "aarch64",
           "accelerator": "metal",
           "acceleratorVersion": null,
-          "filename": "llama-cpp-b4618-macos-aarch64-metal.baiengine",
+          "filename": "llama-cpp-b7681-macos-aarch64-metal.baiengine",
           "size": 0,
           "sha256": ""
         },
@@ -24,7 +24,7 @@
           "arch": "aarch64",
           "accelerator": "cpu",
           "acceleratorVersion": null,
-          "filename": "llama-cpp-b4618-macos-aarch64-cpu.baiengine",
+          "filename": "llama-cpp-b7681-macos-aarch64-cpu.baiengine",
           "size": 0,
           "sha256": ""
         },
@@ -33,7 +33,7 @@
           "arch": "x86_64",
           "accelerator": "cpu",
           "acceleratorVersion": null,
-          "filename": "llama-cpp-b4618-macos-x86_64-cpu.baiengine",
+          "filename": "llama-cpp-b7681-macos-x86_64-cpu.baiengine",
           "size": 0,
           "sha256": ""
         },
@@ -42,7 +42,7 @@
           "arch": "x86_64",
           "accelerator": "cuda",
           "acceleratorVersion": "12.0",
-          "filename": "llama-cpp-b4618-linux-x86_64-cuda12.baiengine",
+          "filename": "llama-cpp-b7681-linux-x86_64-cuda12.baiengine",
           "size": 0,
           "sha256": ""
         },
@@ -51,7 +51,7 @@
           "arch": "x86_64",
           "accelerator": "cpu",
           "acceleratorVersion": null,
-          "filename": "llama-cpp-b4618-linux-x86_64-cpu.baiengine",
+          "filename": "llama-cpp-b7681-linux-x86_64-cpu.baiengine",
           "size": 0,
           "sha256": ""
         },
@@ -60,7 +60,7 @@
           "arch": "x86_64",
           "accelerator": "cuda",
           "acceleratorVersion": "12.0",
-          "filename": "llama-cpp-b4618-windows-x86_64-cuda12.baiengine",
+          "filename": "llama-cpp-b7681-windows-x86_64-cuda12.baiengine",
           "size": 0,
           "sha256": ""
         },
@@ -69,7 +69,7 @@
           "arch": "x86_64",
           "accelerator": "cpu",
           "acceleratorVersion": null,
-          "filename": "llama-cpp-b4618-windows-x86_64-cpu.baiengine",
+          "filename": "llama-cpp-b7681-windows-x86_64-cpu.baiengine",
           "size": 0,
           "sha256": ""
         }
