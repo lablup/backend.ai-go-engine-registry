@@ -1,0 +1,79 @@
+{
+  "schemaVersion": 1,
+  "lastUpdated": "2025-01-10T00:00:00Z",
+  "baseUrl": "https://github.com/lablup/backend.ai-engine-registry/releases/download",
+  "engines": [
+    {
+      "id": "llama-cpp",
+      "name": "llama.cpp",
+      "description": "High-performance inference engine for GGUF models with support for Metal, CUDA, and CPU backends",
+      "latestVersion": "b4618",
+      "modelFormats": ["gguf"],
+      "packages": [
+        {
+          "os": "macos",
+          "arch": "aarch64",
+          "accelerator": "metal",
+          "acceleratorVersion": null,
+          "filename": "llama-cpp-b4618-macos-aarch64-metal.baiengine",
+          "size": 0,
+          "sha256": ""
+        },
+        {
+          "os": "macos",
+          "arch": "aarch64",
+          "accelerator": "cpu",
+          "acceleratorVersion": null,
+          "filename": "llama-cpp-b4618-macos-aarch64-cpu.baiengine",
+          "size": 0,
+          "sha256": ""
+        },
+        {
+          "os": "macos",
+          "arch": "x86_64",
+          "accelerator": "cpu",
+          "acceleratorVersion": null,
+          "filename": "llama-cpp-b4618-macos-x86_64-cpu.baiengine",
+          "size": 0,
+          "sha256": ""
+        },
+        {
+          "os": "linux",
+          "arch": "x86_64",
+          "accelerator": "cuda",
+          "acceleratorVersion": "12.0",
+          "filename": "llama-cpp-b4618-linux-x86_64-cuda12.baiengine",
+          "size": 0,
+          "sha256": ""
+        },
+        {
+          "os": "linux",
+          "arch": "x86_64",
+          "accelerator": "cpu",
+          "acceleratorVersion": null,
+          "filename": "llama-cpp-b4618-linux-x86_64-cpu.baiengine",
+          "size": 0,
+          "sha256": ""
+        },
+        {
+          "os": "windows",
+          "arch": "x86_64",
+          "accelerator": "cuda",
+          "acceleratorVersion": "12.0",
+          "filename": "llama-cpp-b4618-windows-x86_64-cuda12.baiengine",
+          "size": 0,
+          "sha256": ""
+        },
+        {
+          "os": "windows",
+          "arch": "x86_64",
+          "accelerator": "cpu",
+          "acceleratorVersion": null,
+          "filename": "llama-cpp-b4618-windows-x86_64-cpu.baiengine",
+          "size": 0,
+          "sha256": ""
+        }
+      ]
+    }
+  ]
+}
