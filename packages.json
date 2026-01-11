@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "lastUpdated": "2026-01-11T04:00:41Z",
+  "lastUpdated": "2026-01-11T04:02:41Z",
   "baseUrl": "https://github.com/lablup/backend.ai-go-engine-registry/releases/download",
   "engines": [
     {
@@ -137,6 +137,28 @@
             "filename": "cuda12-runtime-12.4.0-win32-x64.bairuntime",
             "size": 396574964,
             "sha256": "a1a1a808bc59be81da7939f4acd8ebec27c0deafb7aaab1ec987149563a6c6a9"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cuda13-runtime",
+      "name": "CUDA 13 Runtime",
+      "description": "NVIDIA CUDA 13 runtime libraries (cuBLAS, cuBLASLt, cuDNN)",
+      "category": "cuda",
+      "platforms": [
+        "win32"
+      ],
+      "latest": {
+        "version": "0.0.2",
+        "releaseDate": "2026-01-11",
+        "packages": [
+          {
+            "os": "win32",
+            "arch": "x64",
+            "filename": "cuda13-runtime-13.1.0-win32-x64.bairuntime",
+            "size": 403008211,
+            "sha256": "c399262e0cc00f2e6830dd1956803c15f6c13b346c7d1690f2c0b244b81e4b1f"
           }
         ]
       }
