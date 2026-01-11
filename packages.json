@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "lastUpdated": "2026-01-11T04:08:06Z",
+  "lastUpdated": "2026-01-11T04:11:27Z",
   "baseUrl": "https://github.com/lablup/backend.ai-go-engine-registry/releases/download",
   "engines": [
     {
@@ -115,7 +115,7 @@
         "win32"
       ],
       "latest": {
-        "version": "0.0.1",
+        "version": "6.2.0",
         "releaseDate": "2026-01-11",
         "packages": [
           {
@@ -123,7 +123,7 @@
             "arch": "x64",
             "filename": "hip-runtime-6.2.0-win32-x64.bairuntime",
             "size": 247976963,
-            "sha256": "7c5a11286ab4e684674503a3a2c105cc33994a53650bc727edfe20416456c13c"
+            "sha256": "2cc39cecaf12e4e8ff4bd7aad1dc60d2704d9d8af24cac4461d15f5e62397bd4"
           }
         ]
       }
