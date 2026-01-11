@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "lastUpdated": "2026-01-11T04:12:41Z",
+  "lastUpdated": "2026-01-11T04:13:59Z",
   "baseUrl": "https://github.com/lablup/backend.ai-go-engine-registry/releases/download",
   "engines": [
     {
@@ -159,7 +159,7 @@
         "win32"
       ],
       "latest": {
-        "version": "0.0.2",
+        "version": "13.1.0",
         "releaseDate": "2026-01-11",
         "packages": [
           {
