@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "lastUpdated": "2026-01-11T00:33:44Z",
+  "lastUpdated": "2026-01-11T03:30:34Z",
   "baseUrl": "https://github.com/lablup/backend.ai-go-engine-registry/releases/download",
   "engines": [
     {
@@ -96,5 +96,28 @@
       }
     }
   ],
-  "runtimes": []
+  "runtimes": [
+    {
+      "id": "hip-runtime",
+      "name": "HIP Runtime for Windows",
+      "description": "AMD HIP runtime libraries and GPU kernels for Windows (rocblas, hipblaslt)",
+      "category": "rocm",
+      "platforms": [
+        "win32"
+      ],
+      "latest": {
+        "version": "0.0.1",
+        "releaseDate": "2026-01-11",
+        "packages": [
+          {
+            "os": "win32",
+            "arch": "x64",
+            "filename": "hip-runtime-6.2.0-win32-x64.bairuntime",
+            "size": 247976963,
+            "sha256": "9874ec804c583ec792a0ffb406372fd8a711cfff6cb69eb41e80accb21da0d8f"
+          }
+        ]
+      }
+    }
+  ]
 }
