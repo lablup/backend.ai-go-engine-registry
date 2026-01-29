@@ -1,6 +1,6 @@
 # Backend.AI GO Engine Registry
 
-Official engine package registry for [Backend.AI GO](https://github.com/lablup/backend.ai-go).
+Official engine package registry for [Backend.AI GO](https://go.backend.ai).
 
 This registry provides pre-built inference engine packages that Backend.AI GO can automatically download and install.
 
