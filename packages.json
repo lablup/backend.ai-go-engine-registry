@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "lastUpdated": "2026-01-29T00:51:02Z",
+  "lastUpdated": "2026-01-29T13:19:15Z",
   "baseUrl": "https://github.com/lablup/backend.ai-go-engine-registry/releases/download",
   "engines": [
     {
@@ -109,6 +109,81 @@
             "filename": "llama-cpp-26.1.29-win32-x64-vulkan.baiengine",
             "size": 33446115,
             "sha256": "19b212dadfc825397decf1826a8e901b43e1c78d6d6cc3c7bdcf22c6d17a004b"
+          }
+        ]
+      }
+    },
+    {
+      "id": "sd-cpp",
+      "name": "stable-diffusion.cpp",
+      "description": "High-performance Stable Diffusion image generation engine",
+      "supportedFormats": [
+        "safetensors",
+        "gguf"
+      ],
+      "platforms": [
+        "darwin",
+        "linux",
+        "win32"
+      ],
+      "latest": {
+        "version": "26.1.29",
+        "releaseDate": "2026-01-29",
+        "minAppVersion": "0.8.0",
+        "packages": [
+          {
+            "os": "darwin",
+            "arch": "arm64",
+            "accelerator": "metal",
+            "acceleratorVersion": null,
+            "filename": "sd-cpp-26.1.29-darwin-arm64-metal.baiengine",
+            "size": 18081801,
+            "sha256": "dc1f1c3a2bd06cc04d95824d45ebc83e04f5d94fc72137ab0cbcc347e4a380d8"
+          },
+          {
+            "os": "linux",
+            "arch": "x64",
+            "accelerator": "cpu",
+            "acceleratorVersion": null,
+            "filename": "sd-cpp-26.1.29-linux-x64-cpu.baiengine",
+            "size": 9339825,
+            "sha256": "61dd84a3f8fb0cfeefbd7265e57f26c6ecb8e9f54d2309a85eed852fc138bf90"
+          },
+          {
+            "os": "linux",
+            "arch": "x64",
+            "accelerator": "vulkan",
+            "acceleratorVersion": null,
+            "filename": "sd-cpp-26.1.29-linux-x64-vulkan.baiengine",
+            "size": 21968228,
+            "sha256": "ba459d79c8c5171f043f66510a639da591b14d66702dbf4843c0664c99d5b52b"
+          },
+          {
+            "os": "win32",
+            "arch": "x64",
+            "accelerator": "cpu",
+            "acceleratorVersion": null,
+            "filename": "sd-cpp-26.1.29-win32-x64-cpu.baiengine",
+            "size": 8851914,
+            "sha256": "3516c6a41e406de842804e07814228ce2a9a1f464febea39546eb2acad6733ef"
+          },
+          {
+            "os": "win32",
+            "arch": "x64",
+            "accelerator": "cuda12",
+            "acceleratorVersion": null,
+            "filename": "sd-cpp-26.1.29-win32-x64-cuda12.baiengine",
+            "size": 321157904,
+            "sha256": "160ee1436077ecdaf40df35e7f797237d57633df5e45744398e3d31953460d8b"
+          },
+          {
+            "os": "win32",
+            "arch": "x64",
+            "accelerator": "vulkan",
+            "acceleratorVersion": null,
+            "filename": "sd-cpp-26.1.29-win32-x64-vulkan.baiengine",
+            "size": 25169686,
+            "sha256": "fc63b93178a651403f481033e603e9dabb1b6866263bd4bbc93fec9318aadfa9"
           }
         ]
       }
