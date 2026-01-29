@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "lastUpdated": "2026-01-25T00:34:45Z",
+  "lastUpdated": "2026-01-29T00:44:20Z",
   "baseUrl": "https://github.com/lablup/backend.ai-go-engine-registry/releases/download",
   "engines": [
     {
@@ -136,15 +136,15 @@
         "win32"
       ],
       "latest": {
-        "version": "12.4.0",
-        "releaseDate": "2026-01-25",
+        "version": "26.1.29",
+        "releaseDate": "2026-01-29",
         "packages": [
           {
             "os": "win32",
             "arch": "x64",
             "filename": "cuda12-runtime-12.4.0-win32-x64.bairuntime",
-            "size": 396574964,
-            "sha256": "a1a1a808bc59be81da7939f4acd8ebec27c0deafb7aaab1ec987149563a6c6a9"
+            "size": 401139050,
+            "sha256": "aaa0cc37d5e93be9be896158efacb170810cf4d79aea3cc530eaf436fc7a4eba"
           }
         ]
       }
