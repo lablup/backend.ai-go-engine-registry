@@ -1,167 +1,57 @@
-# Backend.AI Engine Registry Template
+# Backend.AI GO Engine Registry
 
-This directory contains template files for setting up the `backend.ai-engine-registry` repository.
+Official engine package registry for [Backend.AI GO](https://github.com/lablup/backend.ai-go).
 
-## Repository Structure
+This registry provides pre-built inference engine packages that Backend.AI GO can automatically download and install.
 
-```
-backend.ai-engine-registry/
-├── engines.json                 # Registry index (main entry point)
-├── packages/                    # (Optional) Local package storage
-│   └── *.baiengine
-├── scripts/
-│   └── update-registry.py       # Update registry after builds
-└── .github/
-    └── workflows/
-        └── release-engine.yml   # Release automation
-```
+## Available Engines
 
-## Setup Instructions
+### llama.cpp
 
-### 1. Initialize Repository
+High-performance GGUF model inference engine with support for various hardware accelerators.
 
-Copy the template files to the new repository:
+| Platform | Architecture | Accelerator | Notes |
+|----------|-------------|-------------|-------|
+| macOS    | arm64       | Metal       | Apple Silicon optimized |
+| Linux    | arm64       | CPU         | ARM64 servers |
+| Linux    | x64         | CPU         | Generic x86_64 |
+| Linux    | x64         | Vulkan      | AMD/Intel GPU via Vulkan |
+| Windows  | x64         | CPU         | Generic x86_64 |
+| Windows  | x64         | CUDA 12     | NVIDIA GPU (CUDA 12.x) |
+| Windows  | x64         | CUDA 13     | NVIDIA GPU (CUDA 13.x) |
+| Windows  | x64         | HIP         | AMD GPU (ROCm) |
+| Windows  | x64         | SYCL        | Intel GPU (oneAPI) |
+| Windows  | x64         | Vulkan      | Cross-vendor GPU |
 
-```bash
-# Clone the new repository
-git clone git@github.com:lablup/backend.ai-engine-registry.git
-cd backend.ai-engine-registry
+## Available Runtimes
 
-# Copy template files
-cp -r /path/to/backend.ai-go/docs/engine-registry-template/* .
+Runtime packages provide GPU acceleration libraries required by engine packages.
 
-# Commit and push
-git add .
-git commit -m "feat: Initialize engine registry"
-git push origin main
-```
+| Runtime | Platform | Description |
+|---------|----------|-------------|
+| cuda12-runtime | Windows | NVIDIA CUDA 12 libraries (cuBLAS, cuBLASLt, cuDNN) |
+| cuda13-runtime | Windows | NVIDIA CUDA 13 libraries (cuBLAS, cuBLASLt, cuDNN) |
+| hip-runtime | Windows | AMD HIP runtime libraries (rocBLAS, hipBLASLt) |
 
-### 2. Configure engines.json
+## Usage
 
-Edit `engines.json` to add your engine definitions:
+Backend.AI GO automatically fetches the package index from this registry and downloads appropriate engine packages based on your system configuration.
 
-```json
-{
-  "schemaVersion": 1,
-  "lastUpdated": "2025-01-10T00:00:00Z",
-  "baseUrl": "https://github.com/lablup/backend.ai-engine-registry/releases/download",
-  "engines": [
-    {
-      "id": "llama-cpp",
-      "name": "llama.cpp",
-      "description": "High-performance inference engine for GGUF models",
-      "latestVersion": "b4618",
-      "modelFormats": ["gguf"],
-      "packages": [
-        {
-          "os": "macos",
-          "arch": "aarch64",
-          "accelerator": "metal",
-          "acceleratorVersion": null,
-          "filename": "llama-cpp-b4618-macos-aarch64-metal.baiengine",
-          "size": 12345678,
-          "sha256": "abc123..."
-        }
-      ]
-    }
-  ]
-}
-```
-
-### 3. Package Naming Convention
-
-Engine packages must follow this naming pattern:
+### Registry URL
 
 ```
-{engine_id}-{version}-{os}-{arch}-{accelerator}.baiengine
+https://raw.githubusercontent.com/lablup/backend.ai-go-engine-registry/main/packages.json
 ```
 
-Examples:
+### Manual Download
 
-- `llama-cpp-b4618-macos-aarch64-metal.baiengine`
-- `llama-cpp-b4618-linux-x86_64-cuda12.baiengine`
-- `llama-cpp-b4618-windows-x86_64-cpu.baiengine`
+Engine packages can also be downloaded directly from [GitHub Releases](https://github.com/lablup/backend.ai-go-engine-registry/releases).
 
-### 4. Release Workflow
+## Package Format
 
-#### Manual Release
+### Engine Packages (`.baiengine`)
 
-1. Build `.baiengine` packages for all platforms
-2. Upload packages to GitHub Release with tag format: `{engine_id}-v{version}`
-3. Run update script:
-
-```bash
-python scripts/update-registry.py \
-  --engine llama-cpp \
-  --version b4618 \
-  --packages-dir ./packages
-```
-
-4. Commit and push `engines.json`
-
-#### Automated Release (GitHub Actions)
-
-1. Trigger the `Release Engine Package` workflow
-2. Provide:
-   - Engine ID (e.g., `llama-cpp`)
-   - Version (e.g., `b4618`)
-   - Pre-release flag (optional)
-
-The workflow will:
-
-- Download build artifacts from the build workflow
-- Create a GitHub Release with all packages
-- Update `engines.json` with checksums and sizes
-- Commit and push the updated registry
-
-## Platform Matrix
-
-| OS      | Architecture | Accelerators       |
-|---------|--------------|-------------------|
-| macos   | aarch64      | metal, cpu        |
-| macos   | x86_64       | cpu               |
-| linux   | x86_64       | cuda, cpu, rocm   |
-| windows | x86_64       | cuda, cpu         |
-
-## URL Resolution
-
-The app constructs download URLs using:
-
-```
-{baseUrl}/{tag}/{filename}
-```
-
-Example:
-
-```
-https://github.com/lablup/backend.ai-engine-registry/releases/download/llama-cpp-vb4618/llama-cpp-b4618-macos-aarch64-metal.baiengine
-```
-
-## Future: Static Hosting
-
-To migrate to static hosting (S3, CDN, etc.):
-
-1. Update `baseUrl` in `engines.json`:
-   ```json
-   {
-     "baseUrl": "https://cdn.example.com/engines"
-   }
-   ```
-
-2. Upload packages to the new location
-3. No app changes required - the registry URL is configurable
-
-## Offline Installation Support
-
-Users can download `.baiengine` files manually and:
-
-1. Place them in `~/Library/Application Support/Backend.AI GO/engines/incoming/` (macOS)
-2. The app will detect and offer to import them
-3. Or use the "Import Package" button in the Engines UI
-
-## .baiengine Package Format
-
-Each `.baiengine` file is a tar.gz archive containing:
+Tar.gz archives containing:
 
 ```
 package/
@@ -170,18 +60,20 @@ package/
 └── libs/             # (Optional) Bundled libraries
 ```
 
-### manifest.json Schema
+### Runtime Packages (`.bairuntime`)
 
-```json
-{
-  "engineId": "llama-cpp",
-  "version": "b4618",
-  "accelerator": "metal",
-  "acceleratorVersion": null,
-  "os": "macos",
-  "arch": "aarch64",
-  "serverBinary": "llama-server",
-  "modelFormats": ["gguf"],
-  "minAppVersion": "0.11.0"
-}
-```
+Tar.gz archives containing GPU runtime libraries required by engine packages.
+
+## Offline Installation
+
+1. Download the `.baiengine` file from GitHub Releases
+2. Place it in the engines directory:
+   - macOS: `~/Library/Application Support/Backend.AI GO/engines/incoming/`
+   - Windows: `%APPDATA%\Backend.AI GO\engines\incoming\`
+   - Linux: `~/.config/Backend.AI GO/engines/incoming/`
+3. The app will detect and offer to import the package
+
+## License
+
+Engine packages are distributed under their respective upstream licenses:
+- llama.cpp: MIT License
