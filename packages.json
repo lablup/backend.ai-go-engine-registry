@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "lastUpdated": "2026-02-08T00:47:26Z",
+  "lastUpdated": "2026-02-09T09:34:35Z",
   "baseUrl": "https://github.com/lablup/backend.ai-go-engine-registry/releases/download",
   "engines": [
     {
@@ -117,57 +117,63 @@
         "win32"
       ],
       "latest": {
-        "version": "26.1.29",
-        "releaseDate": "2026-02-08",
+        "version": "26.2.9",
+        "releaseDate": "2026-02-09",
         "minAppVersion": "0.8.0",
         "packages": [
           {
             "os": "darwin",
             "arch": "arm64",
-            "filename": "sd-cpp-26.1.29-darwin-arm64-metal.baiengine",
-            "size": 18081801,
-            "sha256": "dc1f1c3a2bd06cc04d95824d45ebc83e04f5d94fc72137ab0cbcc347e4a380d8",
-            "accelerator": "metal"
+            "accelerator": "metal",
+            "acceleratorVersion": null,
+            "filename": "sd-cpp-26.2.9-darwin-arm64-metal.baiengine",
+            "size": 18493580,
+            "sha256": "ea2e912c0ffb74c5fe56494fd94f087e5c465b4ddf62436b37d6080d5b8f8c16"
           },
           {
             "os": "linux",
             "arch": "x64",
-            "filename": "sd-cpp-26.1.29-linux-x64-cpu.baiengine",
-            "size": 9339825,
-            "sha256": "61dd84a3f8fb0cfeefbd7265e57f26c6ecb8e9f54d2309a85eed852fc138bf90",
-            "accelerator": "cpu"
+            "accelerator": "cpu",
+            "acceleratorVersion": null,
+            "filename": "sd-cpp-26.2.9-linux-x64-cpu.baiengine",
+            "size": 9382345,
+            "sha256": "fac1b22d9165f15cb71aacdb7d00300d582d98cf4d0b1f0dafe19198c84de776"
           },
           {
             "os": "linux",
             "arch": "x64",
-            "filename": "sd-cpp-26.1.29-linux-x64-vulkan.baiengine",
-            "size": 21968228,
-            "sha256": "ba459d79c8c5171f043f66510a639da591b14d66702dbf4843c0664c99d5b52b",
-            "accelerator": "vulkan"
+            "accelerator": "vulkan",
+            "acceleratorVersion": null,
+            "filename": "sd-cpp-26.2.9-linux-x64-vulkan.baiengine",
+            "size": 22040824,
+            "sha256": "6ae5690d956282e6c9b11bf9f7883519541968681a5d798ebce12837e6eac8bd"
           },
           {
             "os": "win32",
             "arch": "x64",
-            "filename": "sd-cpp-26.1.29-win32-x64-cpu.baiengine",
-            "size": 8851914,
-            "sha256": "3516c6a41e406de842804e07814228ce2a9a1f464febea39546eb2acad6733ef",
-            "accelerator": "cpu"
+            "accelerator": "cpu",
+            "acceleratorVersion": null,
+            "filename": "sd-cpp-26.2.9-win32-x64-cpu.baiengine",
+            "size": 8886799,
+            "sha256": "101cdc4a06d718fbcb2cf3a458d70b9e1fb811aaf89592434f589f687921c79a"
           },
           {
             "os": "win32",
             "arch": "x64",
-            "filename": "sd-cpp-26.1.29-win32-x64-cuda12.baiengine",
-            "size": 321157904,
-            "sha256": "160ee1436077ecdaf40df35e7f797237d57633df5e45744398e3d31953460d8b",
-            "accelerator": "cuda12"
+            "accelerator": "cuda12",
+            "acceleratorVersion": null,
+            "filename": "sd-cpp-26.2.9-win32-x64-cuda12.baiengine",
+            "size": 326527957,
+            "sha256": "3149a9ddfa739fe4b4d2828bffe944c8057cd48b1b214e3157d40ff00f138a5d"
           },
           {
             "os": "win32",
             "arch": "x64",
-            "filename": "sd-cpp-26.1.29-win32-x64-vulkan.baiengine",
-            "size": 25169686,
-            "sha256": "fc63b93178a651403f481033e603e9dabb1b6866263bd4bbc93fec9318aadfa9",
-            "accelerator": "vulkan"
+            "accelerator": "vulkan",
+            "acceleratorVersion": null,
+            "filename": "sd-cpp-26.2.9-win32-x64-vulkan.baiengine",
+            "size": 25269890,
+            "sha256": "69402cfb0878180de56399dd5d78c2afb166bad2ff7b6a416c3af8e1041cc0cc"
           }
         ]
       }
