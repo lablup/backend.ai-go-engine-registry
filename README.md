@@ -10,6 +10,8 @@ This registry provides pre-built inference engine packages that Backend.AI GO ca
 
 High-performance GGUF model inference engine with support for various hardware accelerators.
 
+- **Supported model formats:** GGUF
+
 | Platform | Architecture | Accelerator | Notes |
 |----------|-------------|-------------|-------|
 | macOS    | arm64       | Metal       | Apple Silicon optimized |
@@ -22,6 +24,34 @@ High-performance GGUF model inference engine with support for various hardware a
 | Windows  | x64         | HIP         | AMD GPU (ROCm) |
 | Windows  | x64         | SYCL        | Intel GPU (oneAPI) |
 | Windows  | x64         | Vulkan      | Cross-vendor GPU |
+
+### stable-diffusion.cpp
+
+High-performance Stable Diffusion image generation engine.
+
+- **Supported model formats:** SafeTensors, GGUF
+
+| Platform | Architecture | Accelerator | Notes |
+|----------|-------------|-------------|-------|
+| macOS    | arm64       | Metal       | Apple Silicon optimized |
+| Linux    | x64         | CPU         | Generic x86_64 |
+| Linux    | x64         | Vulkan      | AMD/Intel GPU via Vulkan |
+| Windows  | x64         | CPU         | Generic x86_64 |
+| Windows  | x64         | CUDA 12     | NVIDIA GPU (CUDA 12.x) |
+| Windows  | x64         | Vulkan      | Cross-vendor GPU |
+
+### whisper.cpp
+
+High-performance speech-to-text inference engine.
+
+- **Supported model formats:** GGUF, bin
+
+| Platform | Architecture | Accelerator | Notes |
+|----------|-------------|-------------|-------|
+| macOS    | arm64       | Metal       | Apple Silicon optimized |
+| Linux    | x64         | CPU         | Generic x86_64 |
+| Windows  | x64         | CPU         | Generic x86_64 |
+| Windows  | x64         | CUDA 12     | NVIDIA GPU (CUDA 12.x) |
 
 ## Available Runtimes
 
@@ -56,7 +86,7 @@ Tar.gz archives containing:
 ```
 package/
 ├── manifest.json     # Package metadata
-├── llama-server      # Server binary (or .exe on Windows)
+├── <engine-binary>   # Server binary (or .exe on Windows)
 └── libs/             # (Optional) Bundled libraries
 ```
 
@@ -77,3 +107,5 @@ Tar.gz archives containing GPU runtime libraries required by engine packages.
 
 Engine packages are distributed under their respective upstream licenses:
 - llama.cpp: MIT License
+- stable-diffusion.cpp: MIT License
+- whisper.cpp: MIT License
