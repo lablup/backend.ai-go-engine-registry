@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "lastUpdated": "2026-03-09T16:54:17Z",
+  "lastUpdated": "2026-03-11T16:25:57Z",
   "baseUrl": "https://github.com/lablup/backend.ai-go-engine-registry/releases/download",
   "engines": [
     {
@@ -236,21 +236,21 @@
         "darwin"
       ],
       "latest": {
-        "version": "26.3.10",
-        "releaseDate": "2026-03-09",
-        "minAppVersion": "1.3.2",
+        "version": "26.3.12",
+        "releaseDate": "2026-03-11",
+        "minAppVersion": "1.3.0",
         "packages": [
           {
             "os": "darwin",
             "arch": "arm64",
             "accelerator": "metal",
             "acceleratorVersion": null,
-            "filename": "mlxcel-26.3.10-darwin-arm64-metal.baiengine",
-            "size": 41003303,
-            "sha256": "09c0e2e82c940cb2ee9c9a6786f1537ab104dedff7d1702b0e93516f1f59783b"
+            "filename": "mlxcel-26.3.12-darwin-arm64-metal.baiengine",
+            "size": 42864249,
+            "sha256": "878a73611d15a0cbb02be18c7a1ea191a3f2a0c9f2fc4c6868616c22a6175233"
           }
         ],
-        "upstream": "v0.0.2"
+        "upstream": "v0.0.5"
       }
     }
   ],
