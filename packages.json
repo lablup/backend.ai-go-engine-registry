@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "lastUpdated": "2026-03-15T05:47:57Z",
+  "lastUpdated": "2026-03-16T14:25:53Z",
   "baseUrl": "https://github.com/lablup/backend.ai-go-engine-registry/releases/download",
   "engines": [
     {
@@ -249,24 +249,46 @@
         "safetensors"
       ],
       "platforms": [
-        "darwin"
+        "darwin",
+        "linux"
       ],
       "latest": {
-        "version": "26.3.14",
-        "releaseDate": "2026-03-15",
-        "minAppVersion": "1.3.0",
+        "version": "26.3.16",
+        "releaseDate": "2026-03-16",
+        "minAppVersion": "1.4.0",
         "packages": [
           {
             "os": "darwin",
             "arch": "arm64",
             "accelerator": "metal",
             "acceleratorVersion": null,
-            "filename": "mlxcel-26.3.14-darwin-arm64-metal.baiengine",
-            "size": 42930742,
-            "sha256": "aa162be0f97c966a013e6c5741a2e8e41705497425df3e122a9504d89ddbe614"
+            "variant": null,
+            "filename": "mlxcel-26.3.16-darwin-arm64-metal.baiengine",
+            "size": 42020531,
+            "sha256": "58af49ed349aae98e1f4adc2f1d7a4cd0e333191b5185fe339012510d6bb3b5c"
+          },
+          {
+            "os": "linux",
+            "arch": "arm64",
+            "accelerator": "cuda13",
+            "acceleratorVersion": null,
+            "variant": "gb10",
+            "filename": "mlxcel-26.3.16-linux-arm64-cuda13-gb10.baiengine",
+            "size": 32021216,
+            "sha256": "175093b300ac36cd8b8739e8360dda4149751b5c1bb7b5a44255c5f393b8b8b6"
+          },
+          {
+            "os": "linux",
+            "arch": "arm64",
+            "accelerator": "cuda13",
+            "acceleratorVersion": null,
+            "variant": "gh200",
+            "filename": "mlxcel-26.3.16-linux-arm64-cuda13-gh200.baiengine",
+            "size": 32070760,
+            "sha256": "09ce11985726651d19c1cfa1ec510a8f5b6ca9cec5fc1f526f59fcfb044aa8ee"
           }
         ],
-        "upstream": "v0.0.6"
+        "upstream": "v0.0.7"
       }
     }
   ],
