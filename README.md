@@ -53,6 +53,18 @@ High-performance speech-to-text inference engine.
 | Windows  | x64         | CPU         | Generic x86_64 |
 | Windows  | x64         | CUDA 12     | NVIDIA GPU (CUDA 12.x) |
 
+### MLXcel
+
+An experimental modular model server for Apple Silicon and CUDA GPUs, built with Rust and native MLX C++ bindings.
+
+- **Supported model formats:** SafeTensors
+
+| Platform | Architecture | Accelerator | Notes |
+|----------|-------------|-------------|-------|
+| macOS    | arm64       | Metal       | Apple Silicon optimized |
+| Linux    | arm64       | CUDA 13     | NVIDIA GB10 (variant: gb10) |
+| Linux    | arm64       | CUDA 13     | NVIDIA GH200 (variant: gh200) |
+
 ## Available Runtimes
 
 Runtime packages provide GPU acceleration libraries required by engine packages.
@@ -109,3 +121,4 @@ Engine packages are distributed under their respective upstream licenses:
 - llama.cpp: MIT License
 - stable-diffusion.cpp: MIT License
 - whisper.cpp: MIT License
+- MLXcel: Lablup Proprietary License
