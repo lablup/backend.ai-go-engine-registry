@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "lastUpdated": "2026-03-17T15:16:32Z",
+  "lastUpdated": "2026-03-22T00:41:27Z",
   "baseUrl": "https://github.com/lablup/backend.ai-go-engine-registry/releases/download",
   "engines": [
     {
@@ -17,131 +17,106 @@
       ],
       "latest": {
         "version": "26.3.16",
-        "releaseDate": "2026-03-16",
-        "minAppVersion": "1.4.0",
+        "releaseDate": "2026-03-22",
+        "minAppVersion": "0.8.0",
         "packages": [
           {
             "os": "darwin",
             "arch": "arm64",
-            "accelerator": "metal",
-            "acceleratorVersion": null,
-            "variant": null,
             "filename": "llama-cpp-26.3.16-darwin-arm64-metal.baiengine",
             "size": 14866058,
-            "sha256": "b4abf95b53c36e37a0e50d488ee4dd0759d8735d1714695d3d9be9fc3929cec0"
+            "sha256": "b4abf95b53c36e37a0e50d488ee4dd0759d8735d1714695d3d9be9fc3929cec0",
+            "accelerator": "metal"
           },
           {
             "os": "linux",
             "arch": "arm64",
-            "accelerator": "cpu",
-            "acceleratorVersion": null,
-            "variant": null,
             "filename": "llama-cpp-26.3.16-linux-arm64-cpu.baiengine",
             "size": 9216071,
-            "sha256": "471541a7bb3b4b3cbdc0ce72fc0c7c4f8ea3ce471b0b2a0e69c62e5cd4d9de33"
+            "sha256": "471541a7bb3b4b3cbdc0ce72fc0c7c4f8ea3ce471b0b2a0e69c62e5cd4d9de33",
+            "accelerator": "cpu"
           },
           {
             "os": "linux",
             "arch": "arm64",
-            "accelerator": "cuda13",
-            "acceleratorVersion": null,
-            "variant": "gb10",
             "filename": "llama-cpp-26.3.16-linux-arm64-cuda13-gb10.baiengine",
             "size": 31517822,
-            "sha256": "1dfbfe88640c93678ecc555a21d40405d4bb85519e3d0952149d71854b1d0f78"
+            "sha256": "1dfbfe88640c93678ecc555a21d40405d4bb85519e3d0952149d71854b1d0f78",
+            "accelerator": "cuda13"
           },
           {
             "os": "linux",
             "arch": "arm64",
-            "accelerator": "cuda13",
-            "acceleratorVersion": null,
-            "variant": "gh200",
             "filename": "llama-cpp-26.3.16-linux-arm64-cuda13-gh200.baiengine",
             "size": 49706640,
-            "sha256": "47deba980c05d832c683ad62a9d382ce6e8022c5f0d9ed5c12b86287d3197b58"
+            "sha256": "47deba980c05d832c683ad62a9d382ce6e8022c5f0d9ed5c12b86287d3197b58",
+            "accelerator": "cuda13"
           },
           {
             "os": "linux",
             "arch": "x64",
-            "accelerator": "cpu",
-            "acceleratorVersion": null,
-            "variant": null,
             "filename": "llama-cpp-26.3.16-linux-x64-cpu.baiengine",
             "size": 15089062,
-            "sha256": "a12a804ba1f1be0cf5491671a35d0f6afc42c25252f645c2892bc1a6e2e1b4ea"
+            "sha256": "a12a804ba1f1be0cf5491671a35d0f6afc42c25252f645c2892bc1a6e2e1b4ea",
+            "accelerator": "cpu"
           },
           {
             "os": "linux",
             "arch": "x64",
-            "accelerator": "vulkan",
-            "acceleratorVersion": null,
-            "variant": null,
             "filename": "llama-cpp-26.3.16-linux-x64-vulkan.baiengine",
             "size": 31955844,
-            "sha256": "a2b61289383ef84f1700144e424ac39a8c42415efd8f484603c1208b055299bf"
+            "sha256": "a2b61289383ef84f1700144e424ac39a8c42415efd8f484603c1208b055299bf",
+            "accelerator": "vulkan"
           },
           {
             "os": "win32",
             "arch": "x64",
-            "accelerator": "cpu",
-            "acceleratorVersion": null,
-            "variant": null,
             "filename": "llama-cpp-26.3.16-win32-x64-cpu.baiengine",
             "size": 17546397,
-            "sha256": "399bd136f3a3d5ca7b4654e9d18a6d1f29c2054af96cd3909e2e27e0d5c497cb"
+            "sha256": "399bd136f3a3d5ca7b4654e9d18a6d1f29c2054af96cd3909e2e27e0d5c497cb",
+            "accelerator": "cpu"
           },
           {
             "os": "win32",
             "arch": "x64",
-            "accelerator": "cuda12",
-            "acceleratorVersion": null,
-            "variant": null,
             "filename": "llama-cpp-26.3.16-win32-x64-cuda12.baiengine",
             "size": 213325388,
-            "sha256": "a015e6fe07ddcf7b51f252683a6d8ba675456ee7600bd1a4b11d95e6334d3c1d"
+            "sha256": "a015e6fe07ddcf7b51f252683a6d8ba675456ee7600bd1a4b11d95e6334d3c1d",
+            "accelerator": "cuda12"
           },
           {
             "os": "win32",
             "arch": "x64",
-            "accelerator": "cuda13",
-            "acceleratorVersion": null,
-            "variant": null,
             "filename": "llama-cpp-26.3.16-win32-x64-cuda13.baiengine",
             "size": 134263697,
-            "sha256": "ab0cf8b3857b9b0aa05c3226cfca33aa91d65433b3e655e1dadf2760bbebd0b3"
+            "sha256": "ab0cf8b3857b9b0aa05c3226cfca33aa91d65433b3e655e1dadf2760bbebd0b3",
+            "accelerator": "cuda13"
           },
           {
             "os": "win32",
             "arch": "x64",
-            "accelerator": "hip",
-            "acceleratorVersion": null,
-            "variant": null,
             "filename": "llama-cpp-26.3.16-win32-x64-hip.baiengine",
             "size": 131738881,
-            "sha256": "105cc8640f38deb056a417af8fbc176db1c081095f87f5110803822f3fbdd531"
+            "sha256": "105cc8640f38deb056a417af8fbc176db1c081095f87f5110803822f3fbdd531",
+            "accelerator": "hip"
           },
           {
             "os": "win32",
             "arch": "x64",
-            "accelerator": "sycl",
-            "acceleratorVersion": null,
-            "variant": null,
             "filename": "llama-cpp-26.3.16-win32-x64-sycl.baiengine",
             "size": 116998921,
-            "sha256": "ed9269f3d3bf614a7394f3fb753bbf8d70f00ce6ffdceb46c0bdb0036150549f"
+            "sha256": "ed9269f3d3bf614a7394f3fb753bbf8d70f00ce6ffdceb46c0bdb0036150549f",
+            "accelerator": "sycl"
           },
           {
             "os": "win32",
             "arch": "x64",
-            "accelerator": "vulkan",
-            "acceleratorVersion": null,
-            "variant": null,
             "filename": "llama-cpp-26.3.16-win32-x64-vulkan.baiengine",
             "size": 34279173,
-            "sha256": "ca29998a75135253e5ed83e3abdeab08412fe26ce823151622c82088ac93cb85"
+            "sha256": "ca29998a75135253e5ed83e3abdeab08412fe26ce823151622c82088ac93cb85",
+            "accelerator": "vulkan"
           }
-        ],
-        "upstream": "b8373"
+        ]
       }
     },
     {
@@ -159,7 +134,7 @@
       ],
       "latest": {
         "version": "26.2.26",
-        "releaseDate": "2026-03-15",
+        "releaseDate": "2026-03-22",
         "minAppVersion": "0.8.0",
         "packages": [
           {
@@ -228,7 +203,7 @@
       ],
       "latest": {
         "version": "26.3.3",
-        "releaseDate": "2026-03-15",
+        "releaseDate": "2026-03-22",
         "minAppVersion": "0.8.0",
         "packages": [
           {
@@ -279,41 +254,34 @@
       ],
       "latest": {
         "version": "26.3.18",
-        "releaseDate": "2026-03-17",
-        "minAppVersion": "1.5.0",
+        "releaseDate": "2026-03-22",
+        "minAppVersion": "0.8.0",
         "packages": [
           {
             "os": "darwin",
             "arch": "arm64",
-            "accelerator": "metal",
-            "acceleratorVersion": null,
-            "variant": null,
             "filename": "mlxcel-26.3.18-darwin-arm64-metal.baiengine",
             "size": 42058847,
-            "sha256": "97823a05ed7c80620a6aa1ebb1ce1b5875b08bbca632b2beac6d9bff0da699d2"
+            "sha256": "97823a05ed7c80620a6aa1ebb1ce1b5875b08bbca632b2beac6d9bff0da699d2",
+            "accelerator": "metal"
           },
           {
             "os": "linux",
             "arch": "arm64",
-            "accelerator": "cuda13",
-            "acceleratorVersion": null,
-            "variant": "gb10",
             "filename": "mlxcel-26.3.18-linux-arm64-cuda13-gb10.baiengine",
             "size": 32069121,
-            "sha256": "a2eb9f3fb6f6fa34f43eee362975e0435ccc3a26f4ce4a7a2b325264e1c05b90"
+            "sha256": "a2eb9f3fb6f6fa34f43eee362975e0435ccc3a26f4ce4a7a2b325264e1c05b90",
+            "accelerator": "cuda13"
           },
           {
             "os": "linux",
             "arch": "arm64",
-            "accelerator": "cuda13",
-            "acceleratorVersion": null,
-            "variant": "gh200",
             "filename": "mlxcel-26.3.18-linux-arm64-cuda13-gh200.baiengine",
             "size": 32117095,
-            "sha256": "8c0fb0cdb18b489e9d5d05b17533a9c134991f1f221b520b48b326f21438ab7f"
+            "sha256": "8c0fb0cdb18b489e9d5d05b17533a9c134991f1f221b520b48b326f21438ab7f",
+            "accelerator": "cuda13"
           }
-        ],
-        "upstream": "v0.0.10"
+        ]
       }
     }
   ],
@@ -328,7 +296,7 @@
       ],
       "latest": {
         "version": "26.1.29",
-        "releaseDate": "2026-03-15",
+        "releaseDate": "2026-03-22",
         "packages": [
           {
             "os": "win32",
@@ -350,7 +318,7 @@
       ],
       "latest": {
         "version": "26.2.26",
-        "releaseDate": "2026-03-15",
+        "releaseDate": "2026-03-22",
         "packages": [
           {
             "os": "win32",
@@ -372,7 +340,7 @@
       ],
       "latest": {
         "version": "26.2.26",
-        "releaseDate": "2026-03-15",
+        "releaseDate": "2026-03-22",
         "packages": [
           {
             "os": "win32",
