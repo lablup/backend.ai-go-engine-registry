@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "lastUpdated": "2026-03-22T00:41:27Z",
+  "lastUpdated": "2026-03-29T00:44:22Z",
   "baseUrl": "https://github.com/lablup/backend.ai-go-engine-registry/releases/download",
   "engines": [
     {
@@ -17,7 +17,7 @@
       ],
       "latest": {
         "version": "26.3.16",
-        "releaseDate": "2026-03-22",
+        "releaseDate": "2026-03-29",
         "minAppVersion": "0.8.0",
         "packages": [
           {
@@ -134,7 +134,7 @@
       ],
       "latest": {
         "version": "26.2.26",
-        "releaseDate": "2026-03-22",
+        "releaseDate": "2026-03-29",
         "minAppVersion": "0.8.0",
         "packages": [
           {
@@ -203,7 +203,7 @@
       ],
       "latest": {
         "version": "26.3.3",
-        "releaseDate": "2026-03-22",
+        "releaseDate": "2026-03-29",
         "minAppVersion": "0.8.0",
         "packages": [
           {
@@ -254,7 +254,7 @@
       ],
       "latest": {
         "version": "26.3.18",
-        "releaseDate": "2026-03-22",
+        "releaseDate": "2026-03-29",
         "minAppVersion": "0.8.0",
         "packages": [
           {
@@ -268,17 +268,17 @@
           {
             "os": "linux",
             "arch": "arm64",
-            "filename": "mlxcel-26.3.18-linux-arm64-cuda13-gb10.baiengine",
-            "size": 32069121,
-            "sha256": "a2eb9f3fb6f6fa34f43eee362975e0435ccc3a26f4ce4a7a2b325264e1c05b90",
+            "filename": "mlxcel-26.3.18-linux-arm64-cuda13-gh200.baiengine",
+            "size": 32117095,
+            "sha256": "8c0fb0cdb18b489e9d5d05b17533a9c134991f1f221b520b48b326f21438ab7f",
             "accelerator": "cuda13"
           },
           {
             "os": "linux",
             "arch": "arm64",
-            "filename": "mlxcel-26.3.18-linux-arm64-cuda13-gh200.baiengine",
-            "size": 32117095,
-            "sha256": "8c0fb0cdb18b489e9d5d05b17533a9c134991f1f221b520b48b326f21438ab7f",
+            "filename": "mlxcel-26.3.18-linux-arm64-cuda13-gb10.baiengine",
+            "size": 32069121,
+            "sha256": "a2eb9f3fb6f6fa34f43eee362975e0435ccc3a26f4ce4a7a2b325264e1c05b90",
             "accelerator": "cuda13"
           }
         ]
@@ -296,7 +296,7 @@
       ],
       "latest": {
         "version": "26.1.29",
-        "releaseDate": "2026-03-22",
+        "releaseDate": "2026-03-29",
         "packages": [
           {
             "os": "win32",
@@ -318,7 +318,7 @@
       ],
       "latest": {
         "version": "26.2.26",
-        "releaseDate": "2026-03-22",
+        "releaseDate": "2026-03-29",
         "packages": [
           {
             "os": "win32",
@@ -340,7 +340,7 @@
       ],
       "latest": {
         "version": "26.2.26",
-        "releaseDate": "2026-03-22",
+        "releaseDate": "2026-03-29",
         "packages": [
           {
             "os": "win32",
