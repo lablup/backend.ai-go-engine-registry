@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "lastUpdated": "2026-04-03T08:57:40Z",
+  "lastUpdated": "2026-04-03T09:19:09Z",
   "baseUrl": "https://github.com/lablup/backend.ai-go-engine-registry/releases/download",
   "engines": [
     {
@@ -278,8 +278,8 @@
         "linux"
       ],
       "latest": {
-        "version": "26.4.2",
-        "releaseDate": "2026-04-02",
+        "version": "26.4.3",
+        "releaseDate": "2026-04-03",
         "minAppVersion": "1.5.0",
         "packages": [
           {
@@ -288,9 +288,9 @@
             "accelerator": "metal",
             "acceleratorVersion": null,
             "variant": null,
-            "filename": "mlxcel-26.4.2-darwin-arm64-metal.baiengine",
-            "size": 42426887,
-            "sha256": "922eb1e51c1bbe634f5f8321cc47bf754542cc3a88ba646e3e01af77b7d09351"
+            "filename": "mlxcel-26.4.3-darwin-arm64-metal.baiengine",
+            "size": 42520184,
+            "sha256": "8d94fbe997de59375b85a57c9d8636c8eab542dcd28fb3df4b453ef7c51cb3ad"
           },
           {
             "os": "linux",
@@ -298,9 +298,9 @@
             "accelerator": "cuda13",
             "acceleratorVersion": null,
             "variant": "gb10",
-            "filename": "mlxcel-26.4.2-linux-arm64-cuda13-gb10.baiengine",
-            "size": 32429397,
-            "sha256": "1bc23e00ab837fbf5bb6f9bcbe6957c5e8f1f995aa1547b0ca48513a467a8244"
+            "filename": "mlxcel-26.4.3-linux-arm64-cuda13-gb10.baiengine",
+            "size": 32513382,
+            "sha256": "88e0001386975bf725803d5236a3108e7f3382f038d0995e2e1182d372e3d1f6"
           },
           {
             "os": "linux",
@@ -308,12 +308,12 @@
             "accelerator": "cuda13",
             "acceleratorVersion": null,
             "variant": "gh200",
-            "filename": "mlxcel-26.4.2-linux-arm64-cuda13-gh200.baiengine",
-            "size": 32474654,
-            "sha256": "1dd5a0bfc91e7295910ddb4ee0147be3e74f2e63eb2355f826081d23ef0b38c8"
+            "filename": "mlxcel-26.4.3-linux-arm64-cuda13-gh200.baiengine",
+            "size": 32563152,
+            "sha256": "c47cb3e20a4a12b351b59a008376499c838e9fe1106511f055291f7d8ed73660"
           }
         ],
-        "upstream": "v0.0.14"
+        "upstream": "v0.0.15"
       }
     }
   ],
