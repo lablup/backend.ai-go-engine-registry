@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "lastUpdated": "2026-04-19T00:48:47Z",
+  "lastUpdated": "2026-04-20T17:05:44Z",
   "baseUrl": "https://github.com/lablup/backend.ai-go-engine-registry/releases/download",
   "engines": [
     {
@@ -253,35 +253,42 @@
         "linux"
       ],
       "latest": {
-        "version": "26.4.14",
-        "releaseDate": "2026-04-19",
-        "minAppVersion": "0.8.0",
+        "version": "26.4.19",
+        "releaseDate": "2026-04-20",
+        "minAppVersion": "1.5.0",
         "packages": [
           {
             "os": "darwin",
             "arch": "arm64",
-            "filename": "mlxcel-26.4.14-darwin-arm64-metal.baiengine",
-            "size": 44761552,
-            "sha256": "99f08fab2fb843cd8644b9127790040525b20141005f0abc263348b37e3aa3dc",
-            "accelerator": "metal"
+            "accelerator": "metal",
+            "acceleratorVersion": null,
+            "variant": null,
+            "filename": "mlxcel-26.4.19-darwin-arm64-metal.baiengine",
+            "size": 44882646,
+            "sha256": "2a0c432e2a3ffc5aacddba8bd599c0d7151f3ec43a382c73951812564e21315d"
           },
           {
             "os": "linux",
             "arch": "arm64",
-            "filename": "mlxcel-26.4.14-linux-arm64-cuda13-gb10.baiengine",
-            "size": 60942853,
-            "sha256": "bb558166f915ec480253864bcb8b15c0ee9c73ce2698c3f62dafa1004e033cc7",
-            "accelerator": "cuda13"
+            "accelerator": "cuda13",
+            "acceleratorVersion": null,
+            "variant": "gb10",
+            "filename": "mlxcel-26.4.19-linux-arm64-cuda13-gb10.baiengine",
+            "size": 61065433,
+            "sha256": "1c70a9be38c10e4cc460447585da573bfede8dcd88170d01db1b6d6bc8172836"
           },
           {
             "os": "linux",
             "arch": "arm64",
-            "filename": "mlxcel-26.4.14-linux-arm64-cuda13-gh200.baiengine",
-            "size": 52375102,
-            "sha256": "12f1600311dea003ce10e68cca848d68567ca85739147497f45fea90338cd6d7",
-            "accelerator": "cuda13"
+            "accelerator": "cuda13",
+            "acceleratorVersion": null,
+            "variant": "gh200",
+            "filename": "mlxcel-26.4.19-linux-arm64-cuda13-gh200.baiengine",
+            "size": 52478557,
+            "sha256": "cccde14285dbe5c735fc88d3a2d795715e08fe0e6bf58764b4099896ee3f06d7"
           }
-        ]
+        ],
+        "upstream": "v0.0.24"
       }
     }
   ],
