@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "lastUpdated": "2026-05-03T00:55:32Z",
+  "lastUpdated": "2026-05-03T17:07:57Z",
   "baseUrl": "https://github.com/lablup/backend.ai-go-engine-registry/releases/download",
   "engines": [
     {
@@ -16,107 +16,132 @@
         "win32"
       ],
       "latest": {
-        "version": "26.4.20",
+        "version": "26.5.3",
         "releaseDate": "2026-05-03",
-        "minAppVersion": "0.8.0",
+        "minAppVersion": "1.6.0",
         "packages": [
           {
             "os": "darwin",
             "arch": "arm64",
-            "filename": "llama-cpp-26.4.20-darwin-arm64-metal.baiengine",
-            "size": 19274318,
-            "sha256": "b2933ba6d86e6f0be1d8e0c59b791c23ce3b1a23a812bf0a6f2e8e675ea730e6",
-            "accelerator": "metal"
+            "accelerator": "metal",
+            "acceleratorVersion": null,
+            "variant": null,
+            "filename": "llama-cpp-26.5.3-darwin-arm64-metal.baiengine",
+            "size": 19330871,
+            "sha256": "2c117cc146d1217d30e9145406edfa349dd6f6e9305195e8afa80602c119faf1"
           },
           {
             "os": "linux",
             "arch": "arm64",
-            "filename": "llama-cpp-26.4.20-linux-arm64-cpu.baiengine",
-            "size": 9341210,
-            "sha256": "0f45f2bce456787a957935b9cd94ef56897ccaa0cc7876135fb859e19c78957c",
-            "accelerator": "cpu"
+            "accelerator": "cpu",
+            "acceleratorVersion": null,
+            "variant": null,
+            "filename": "llama-cpp-26.5.3-linux-arm64-cpu.baiengine",
+            "size": 9406512,
+            "sha256": "e75ee13acde33690a0d2919c0c7e4030e76cbb34e817e8728012fec565fa4887"
           },
           {
             "os": "linux",
             "arch": "arm64",
-            "filename": "llama-cpp-26.4.20-linux-arm64-cuda13-gh200.baiengine",
-            "size": 54069967,
-            "sha256": "d4f524ba0670b92262739f0a9c9a9144b6185ea1c4db6b176bb82b32380d1b89",
-            "accelerator": "cuda13"
+            "accelerator": "cuda13",
+            "acceleratorVersion": null,
+            "variant": "gb10",
+            "filename": "llama-cpp-26.5.3-linux-arm64-cuda13-gb10.baiengine",
+            "size": 31698169,
+            "sha256": "05ccf44237952ac981281a4850fc3dbeb0545a7480bf7f08c84823faa7004890"
           },
           {
             "os": "linux",
             "arch": "arm64",
-            "filename": "llama-cpp-26.4.20-linux-arm64-cuda13-gb10.baiengine",
-            "size": 34033834,
-            "sha256": "c580dbd1002282f28696c718779e1c5cb4176fdf77b5f5cd2c619d2b03bbb749",
-            "accelerator": "cuda13"
+            "accelerator": "cuda13",
+            "acceleratorVersion": null,
+            "variant": "gh200",
+            "filename": "llama-cpp-26.5.3-linux-arm64-cuda13-gh200.baiengine",
+            "size": 51303049,
+            "sha256": "dd1f7563bd83d5bc929d58aa2e0adc5d070f690c732e3a1f91975b8475a635f6"
           },
           {
             "os": "linux",
             "arch": "x64",
-            "filename": "llama-cpp-26.4.20-linux-x64-cpu.baiengine",
-            "size": 15172716,
-            "sha256": "e38cb6925cb75f122cb00314d27d482ed1eff8eb42dd4b9784ad380699f1c7dd",
-            "accelerator": "cpu"
+            "accelerator": "cpu",
+            "acceleratorVersion": null,
+            "variant": null,
+            "filename": "llama-cpp-26.5.3-linux-x64-cpu.baiengine",
+            "size": 15239280,
+            "sha256": "d661a01e6c9ff663c789da735b7edc20f07b05b1f38f4e1cc76bf31ad2e7d5a2"
           },
           {
             "os": "linux",
             "arch": "x64",
-            "filename": "llama-cpp-26.4.20-linux-x64-vulkan.baiengine",
-            "size": 33809288,
-            "sha256": "a406e33348eaaa4caee9026f0c6c1d8bd6bec9ce312d242b534aa3ca02ccd67c",
-            "accelerator": "vulkan"
+            "accelerator": "vulkan",
+            "acceleratorVersion": null,
+            "variant": null,
+            "filename": "llama-cpp-26.5.3-linux-x64-vulkan.baiengine",
+            "size": 33357424,
+            "sha256": "ebd95dfcb6d108d26f551693363a431fecc5d2e947a639c3a0a286eb1ddfa49a"
           },
           {
             "os": "win32",
             "arch": "x64",
-            "filename": "llama-cpp-26.4.20-win32-x64-cpu.baiengine",
-            "size": 19729880,
-            "sha256": "dc5459b8554cddc3d42795f1fd9a190eb7214cc3854027c8365fc122ae62b017",
-            "accelerator": "cpu"
+            "accelerator": "cpu",
+            "acceleratorVersion": null,
+            "variant": null,
+            "filename": "llama-cpp-26.5.3-win32-x64-cpu.baiengine",
+            "size": 19776897,
+            "sha256": "a67d1ce8115a99c35f3f01990800d57c1983e99f21f808f9a15ed94628fcf623"
           },
           {
             "os": "win32",
             "arch": "x64",
-            "filename": "llama-cpp-26.4.20-win32-x64-cuda12.baiengine",
-            "size": 242006042,
-            "sha256": "a902ce3d2693e0a9d140d67abf124960782acca7535bf8810a6ca5672225444e",
-            "accelerator": "cuda12"
+            "accelerator": "cuda12",
+            "acceleratorVersion": null,
+            "variant": null,
+            "filename": "llama-cpp-26.5.3-win32-x64-cuda12.baiengine",
+            "size": 225528405,
+            "sha256": "ff1f9db56223f97edf24eb8ba4d43406fa35478646c1efb04e89a38517059d92"
           },
           {
             "os": "win32",
             "arch": "x64",
-            "filename": "llama-cpp-26.4.20-win32-x64-cuda13.baiengine",
-            "size": 148875087,
-            "sha256": "44d601c42c0fcd6052cd4efd8d6b13242647fd98e0f592fb29df6197792afed5",
-            "accelerator": "cuda13"
+            "accelerator": "cuda13",
+            "acceleratorVersion": null,
+            "variant": null,
+            "filename": "llama-cpp-26.5.3-win32-x64-cuda13.baiengine",
+            "size": 138364900,
+            "sha256": "f7dbdc5c1b8f1897b46822088db5de7f05062e7dfc40d99195f138d25b733217"
           },
           {
             "os": "win32",
             "arch": "x64",
-            "filename": "llama-cpp-26.4.20-win32-x64-hip.baiengine",
-            "size": 148857074,
-            "sha256": "7e76d34df9b57376b429c23e80db5815fd8f539452b96c6d9253f2293faffb85",
-            "accelerator": "hip"
+            "accelerator": "hip",
+            "acceleratorVersion": null,
+            "variant": null,
+            "filename": "llama-cpp-26.5.3-win32-x64-hip.baiengine",
+            "size": 110353454,
+            "sha256": "3317e2e5dbb280acb3af9dcd8d47c2e408689b9eeb9331da9fc2b8147ccf0277"
           },
           {
             "os": "win32",
             "arch": "x64",
-            "filename": "llama-cpp-26.4.20-win32-x64-sycl.baiengine",
-            "size": 120283432,
-            "sha256": "c03b0a24139cc4a853473fce392cbecc26d894fe37e97396c1fce3a5c7bc915d",
-            "accelerator": "sycl"
+            "accelerator": "sycl",
+            "acceleratorVersion": null,
+            "variant": null,
+            "filename": "llama-cpp-26.5.3-win32-x64-sycl.baiengine",
+            "size": 119591435,
+            "sha256": "967d3785524d7b498faccdcbe8939795954a7f7ad6613328d5e8b9ebc03743ce"
           },
           {
             "os": "win32",
             "arch": "x64",
-            "filename": "llama-cpp-26.4.20-win32-x64-vulkan.baiengine",
-            "size": 38259281,
-            "sha256": "bf1cd773a5187cd251fcb8c677d7e9eacd4110620dc97f2360fb5a84a5089788",
-            "accelerator": "vulkan"
+            "accelerator": "vulkan",
+            "acceleratorVersion": null,
+            "variant": null,
+            "filename": "llama-cpp-26.5.3-win32-x64-vulkan.baiengine",
+            "size": 37786304,
+            "sha256": "f6af173cc00049dec87507e28460bbd379500b4b64d32d1f774087cb15e84f0d"
           }
-        ]
+        ],
+        "upstream": "b9010"
       }
     },
     {
