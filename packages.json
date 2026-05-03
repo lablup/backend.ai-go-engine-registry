@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "lastUpdated": "2026-04-26T00:51:11Z",
+  "lastUpdated": "2026-05-03T00:55:32Z",
   "baseUrl": "https://github.com/lablup/backend.ai-go-engine-registry/releases/download",
   "engines": [
     {
@@ -17,7 +17,7 @@
       ],
       "latest": {
         "version": "26.4.20",
-        "releaseDate": "2026-04-26",
+        "releaseDate": "2026-05-03",
         "minAppVersion": "0.8.0",
         "packages": [
           {
@@ -134,7 +134,7 @@
       ],
       "latest": {
         "version": "26.2.26",
-        "releaseDate": "2026-04-26",
+        "releaseDate": "2026-05-03",
         "minAppVersion": "0.8.0",
         "packages": [
           {
@@ -203,7 +203,7 @@
       ],
       "latest": {
         "version": "26.3.3",
-        "releaseDate": "2026-04-26",
+        "releaseDate": "2026-05-03",
         "minAppVersion": "0.8.0",
         "packages": [
           {
@@ -254,7 +254,7 @@
       ],
       "latest": {
         "version": "26.4.23",
-        "releaseDate": "2026-04-26",
+        "releaseDate": "2026-05-03",
         "minAppVersion": "0.8.0",
         "packages": [
           {
@@ -296,7 +296,7 @@
       ],
       "latest": {
         "version": "26.1.29",
-        "releaseDate": "2026-04-26",
+        "releaseDate": "2026-05-03",
         "packages": [
           {
             "os": "win32",
@@ -318,7 +318,7 @@
       ],
       "latest": {
         "version": "26.2.26",
-        "releaseDate": "2026-04-26",
+        "releaseDate": "2026-05-03",
         "packages": [
           {
             "os": "win32",
@@ -340,7 +340,7 @@
       ],
       "latest": {
         "version": "26.2.26",
-        "releaseDate": "2026-04-26",
+        "releaseDate": "2026-05-03",
         "packages": [
           {
             "os": "win32",
