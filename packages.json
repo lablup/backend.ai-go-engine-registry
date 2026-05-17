@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "lastUpdated": "2026-05-10T14:04:58Z",
+  "lastUpdated": "2026-05-17T00:59:11Z",
   "baseUrl": "https://github.com/lablup/backend.ai-go-engine-registry/releases/download",
   "engines": [
     {
@@ -17,7 +17,7 @@
       ],
       "latest": {
         "version": "26.5.3",
-        "releaseDate": "2026-05-10",
+        "releaseDate": "2026-05-17",
         "minAppVersion": "0.8.0",
         "packages": [
           {
@@ -39,17 +39,17 @@
           {
             "os": "linux",
             "arch": "arm64",
-            "filename": "llama-cpp-26.5.3-linux-arm64-cuda13-gb10.baiengine",
-            "size": 31698169,
-            "sha256": "05ccf44237952ac981281a4850fc3dbeb0545a7480bf7f08c84823faa7004890",
+            "filename": "llama-cpp-26.5.3-linux-arm64-cuda13-gh200.baiengine",
+            "size": 51303049,
+            "sha256": "dd1f7563bd83d5bc929d58aa2e0adc5d070f690c732e3a1f91975b8475a635f6",
             "accelerator": "cuda13"
           },
           {
             "os": "linux",
             "arch": "arm64",
-            "filename": "llama-cpp-26.5.3-linux-arm64-cuda13-gh200.baiengine",
-            "size": 51303049,
-            "sha256": "dd1f7563bd83d5bc929d58aa2e0adc5d070f690c732e3a1f91975b8475a635f6",
+            "filename": "llama-cpp-26.5.3-linux-arm64-cuda13-gb10.baiengine",
+            "size": 31698169,
+            "sha256": "05ccf44237952ac981281a4850fc3dbeb0545a7480bf7f08c84823faa7004890",
             "accelerator": "cuda13"
           },
           {
@@ -134,7 +134,7 @@
       ],
       "latest": {
         "version": "26.5.3",
-        "releaseDate": "2026-05-10",
+        "releaseDate": "2026-05-17",
         "minAppVersion": "0.8.0",
         "packages": [
           {
@@ -203,7 +203,7 @@
       ],
       "latest": {
         "version": "26.5.3",
-        "releaseDate": "2026-05-10",
+        "releaseDate": "2026-05-17",
         "minAppVersion": "0.8.0",
         "packages": [
           {
@@ -254,41 +254,34 @@
       ],
       "latest": {
         "version": "26.5.9",
-        "releaseDate": "2026-05-10",
-        "minAppVersion": "1.6.0",
+        "releaseDate": "2026-05-17",
+        "minAppVersion": "0.8.0",
         "packages": [
           {
             "os": "darwin",
             "arch": "arm64",
-            "accelerator": "metal",
-            "acceleratorVersion": null,
-            "variant": null,
             "filename": "mlxcel-26.5.9-darwin-arm64-metal.baiengine",
             "size": 46074003,
-            "sha256": "0e8acf85243e2f53533ca4405c6edaa9b356b36e90ad76eae31cd782425ff198"
+            "sha256": "0e8acf85243e2f53533ca4405c6edaa9b356b36e90ad76eae31cd782425ff198",
+            "accelerator": "metal"
           },
           {
             "os": "linux",
             "arch": "arm64",
-            "accelerator": "cuda13",
-            "acceleratorVersion": null,
-            "variant": "gb10",
-            "filename": "mlxcel-26.5.9-linux-arm64-cuda13-gb10.baiengine",
-            "size": 69329448,
-            "sha256": "a422eec5389a4d11043489006eb5cefd771548c2a8eca2779c6dba49b9cb7c39"
-          },
-          {
-            "os": "linux",
-            "arch": "arm64",
-            "accelerator": "cuda13",
-            "acceleratorVersion": null,
-            "variant": "gh200",
             "filename": "mlxcel-26.5.9-linux-arm64-cuda13-gh200.baiengine",
             "size": 60298994,
-            "sha256": "88c442bc6793618a6b3af4b55876531036531c14f3ff5bd0615d30ac90aec209"
+            "sha256": "88c442bc6793618a6b3af4b55876531036531c14f3ff5bd0615d30ac90aec209",
+            "accelerator": "cuda13"
+          },
+          {
+            "os": "linux",
+            "arch": "arm64",
+            "filename": "mlxcel-26.5.9-linux-arm64-cuda13-gb10.baiengine",
+            "size": 69329448,
+            "sha256": "a422eec5389a4d11043489006eb5cefd771548c2a8eca2779c6dba49b9cb7c39",
+            "accelerator": "cuda13"
           }
-        ],
-        "upstream": "v0.0.26"
+        ]
       }
     }
   ],
@@ -303,7 +296,7 @@
       ],
       "latest": {
         "version": "26.1.29",
-        "releaseDate": "2026-05-10",
+        "releaseDate": "2026-05-17",
         "packages": [
           {
             "os": "win32",
@@ -325,7 +318,7 @@
       ],
       "latest": {
         "version": "26.2.26",
-        "releaseDate": "2026-05-10",
+        "releaseDate": "2026-05-17",
         "packages": [
           {
             "os": "win32",
@@ -347,7 +340,7 @@
       ],
       "latest": {
         "version": "26.2.26",
-        "releaseDate": "2026-05-10",
+        "releaseDate": "2026-05-17",
         "packages": [
           {
             "os": "win32",
