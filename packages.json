@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "lastUpdated": "2026-05-20T00:23:30Z",
+  "lastUpdated": "2026-05-20T00:53:04Z",
   "baseUrl": "https://github.com/lablup/backend.ai-go-engine-registry/releases/download",
   "engines": [
     {
@@ -260,32 +260,26 @@
           {
             "os": "darwin",
             "arch": "arm64",
-            "accelerator": "metal",
-            "acceleratorVersion": null,
-            "variant": null,
             "filename": "mlxcel-26.5.19-darwin-arm64-metal.baiengine",
             "size": 46527809,
-            "sha256": "8dcddaf9f92a513bf02a6ea0ae30729dac595aac2115d7c9ca4bc53be811d045"
+            "sha256": "8dcddaf9f92a513bf02a6ea0ae30729dac595aac2115d7c9ca4bc53be811d045",
+            "accelerator": "metal"
           },
           {
             "os": "linux",
             "arch": "arm64",
-            "accelerator": "cuda13",
-            "acceleratorVersion": null,
-            "variant": "gb10",
-            "filename": "mlxcel-26.5.19-linux-arm64-cuda13-gb10.baiengine",
-            "size": 69787294,
-            "sha256": "99d5eb5c8b6f35ff60febe3f127b6da6cdef0891d74bc362d5727ac726f0ddec"
-          },
-          {
-            "os": "linux",
-            "arch": "arm64",
-            "accelerator": "cuda13",
-            "acceleratorVersion": null,
-            "variant": "gh200",
             "filename": "mlxcel-26.5.19-linux-arm64-cuda13-gh200.baiengine",
             "size": 60799697,
-            "sha256": "5fbda59c32ed6858b84c1fb97867ce03b8103144744f725c8f4c95f87959e33c"
+            "sha256": "5fbda59c32ed6858b84c1fb97867ce03b8103144744f725c8f4c95f87959e33c",
+            "accelerator": "cuda13"
+          },
+          {
+            "os": "linux",
+            "arch": "arm64",
+            "filename": "mlxcel-26.5.19-linux-arm64-cuda13-gb10.baiengine",
+            "size": 69787294,
+            "sha256": "99d5eb5c8b6f35ff60febe3f127b6da6cdef0891d74bc362d5727ac726f0ddec",
+            "accelerator": "cuda13"
           }
         ],
         "upstream": "v0.0.29"
