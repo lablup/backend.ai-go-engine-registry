@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "lastUpdated": "2026-05-20T00:53:04Z",
+  "lastUpdated": "2026-05-20T01:10:45Z",
   "baseUrl": "https://github.com/lablup/backend.ai-go-engine-registry/releases/download",
   "engines": [
     {
@@ -17,8 +17,8 @@
       ],
       "latest": {
         "version": "26.5.3",
-        "releaseDate": "2026-05-17",
-        "minAppVersion": "0.8.0",
+        "releaseDate": "2026-05-04",
+        "minAppVersion": "1.6.0",
         "packages": [
           {
             "os": "darwin",
@@ -116,7 +116,8 @@
             "sha256": "f6af173cc00049dec87507e28460bbd379500b4b64d32d1f774087cb15e84f0d",
             "accelerator": "vulkan"
           }
-        ]
+        ],
+        "upstream": "b9010"
       }
     },
     {
@@ -134,8 +135,8 @@
       ],
       "latest": {
         "version": "26.5.3",
-        "releaseDate": "2026-05-17",
-        "minAppVersion": "0.8.0",
+        "releaseDate": "2026-05-04",
+        "minAppVersion": "1.6.0",
         "packages": [
           {
             "os": "darwin",
@@ -185,7 +186,8 @@
             "sha256": "55cf32fcb65657e9900732ea2fd9d063207e670c1846b3902ce7b0c022cdf9ab",
             "accelerator": "vulkan"
           }
-        ]
+        ],
+        "upstream": "master-593-3d6064b"
       }
     },
     {
@@ -203,8 +205,8 @@
       ],
       "latest": {
         "version": "26.5.3",
-        "releaseDate": "2026-05-17",
-        "minAppVersion": "0.8.0",
+        "releaseDate": "2026-05-03",
+        "minAppVersion": "1.6.0",
         "packages": [
           {
             "os": "darwin",
@@ -238,7 +240,8 @@
             "sha256": "9a29cf361affd97d4fda63471db30d1a9aea13bdb9a041f08b30945ea37d1d98",
             "accelerator": "cuda12"
           }
-        ]
+        ],
+        "upstream": "v1.8.4"
       }
     },
     {
