@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "lastUpdated": "2026-06-15T14:08:53Z",
+  "lastUpdated": "2026-06-15T14:13:07Z",
   "baseUrl": "https://github.com/lablup/backend.ai-go-engine-registry/releases/download",
   "engines": [
     {
@@ -259,8 +259,8 @@
             "acceleratorVersion": null,
             "variant": null,
             "filename": "mlxcel-26.6.15-darwin-arm64-metal.baiengine",
-            "size": 47324491,
-            "sha256": "0a7da7ea8c72466c4db5e6eecb7d9f062f8cec73d88808eef149d63714784154"
+            "size": 47324499,
+            "sha256": "2f5469d7e96eeb342a725125a622dea0dacea1ac624196c57b9bee1477b3f1a0"
           },
           {
             "os": "linux",
@@ -270,7 +270,17 @@
             "variant": null,
             "filename": "mlxcel-26.6.15-linux-arm64-cuda13.baiengine",
             "size": 149978454,
-            "sha256": "f7edc5149e10e25f0de60fd8d7ac7c4c7588fc62bf1274104e8cd6bea4ef10b3"
+            "sha256": "c17cb13e4c8066f4b5ce1d0bd10ab3437ed35dccec3373b84ab02b2a3286f2a3"
+          },
+          {
+            "os": "linux",
+            "arch": "x64",
+            "accelerator": "cuda13",
+            "acceleratorVersion": null,
+            "variant": null,
+            "filename": "mlxcel-26.6.15-linux-x64-cuda13.baiengine",
+            "size": 290241931,
+            "sha256": "bc1124312a366f13d15a831775c1e846a00e1c0bc0acf941419fe726624b1dc6"
           }
         ],
         "upstream": "v0.3.0"
