@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "lastUpdated": "2026-06-14T01:09:09Z",
+  "lastUpdated": "2026-06-15T13:56:09Z",
   "baseUrl": "https://github.com/lablup/backend.ai-go-engine-registry/releases/download",
   "engines": [
     {
@@ -248,36 +248,32 @@
         "linux"
       ],
       "latest": {
-        "version": "26.6.12",
-        "releaseDate": "2026-06-13",
+        "version": "26.6.15",
+        "releaseDate": "2026-06-15",
         "minAppVersion": "1.6.0",
         "packages": [
           {
             "os": "darwin",
             "arch": "arm64",
-            "filename": "mlxcel-26.6.12-darwin-arm64-metal.baiengine",
-            "size": 47126406,
-            "sha256": "d15d3fffbf6b968fd9afe9b4a37a0e88dd4637e428075601e88aa9790cc9ed7a",
-            "accelerator": "metal"
+            "accelerator": "metal",
+            "acceleratorVersion": null,
+            "variant": null,
+            "filename": "mlxcel-26.6.15-darwin-arm64-metal.baiengine",
+            "size": 47324494,
+            "sha256": "e750b1f63d07ea91926da8822687039a0e40c0c0c21192fe4385e09d1241f741"
           },
           {
             "os": "linux",
             "arch": "arm64",
-            "filename": "mlxcel-26.6.12-linux-arm64-cuda13-gh200.baiengine",
-            "size": 61576928,
-            "sha256": "e3f4d758ebc870a6003ca62532862da98fb5d56b66bcad96c45804b31a8612d4",
-            "accelerator": "cuda13"
-          },
-          {
-            "os": "linux",
-            "arch": "arm64",
-            "filename": "mlxcel-26.6.12-linux-arm64-cuda13-gb10.baiengine",
-            "size": 60856115,
-            "sha256": "d660fc50a3ff585a3532470d823073df84ec68ed9fc10355ff06cd9cdc9c300c",
-            "accelerator": "cuda13"
+            "accelerator": "cuda13",
+            "acceleratorVersion": null,
+            "variant": null,
+            "filename": "mlxcel-26.6.15-linux-arm64-cuda13.baiengine",
+            "size": 149978454,
+            "sha256": "61d58f4b32c291b34b6925a1f179a845aafda236c5b02082f8ce831caa172bb6"
           }
         ],
-        "upstream": "v0.2.0"
+        "upstream": "v0.3.0"
       }
     }
   ],
