@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "lastUpdated": "2026-06-15T14:13:07Z",
+  "lastUpdated": "2026-06-21T01:10:41Z",
   "baseUrl": "https://github.com/lablup/backend.ai-go-engine-registry/releases/download",
   "engines": [
     {
@@ -255,32 +255,26 @@
           {
             "os": "darwin",
             "arch": "arm64",
-            "accelerator": "metal",
-            "acceleratorVersion": null,
-            "variant": null,
             "filename": "mlxcel-26.6.15-darwin-arm64-metal.baiengine",
             "size": 47324499,
-            "sha256": "2f5469d7e96eeb342a725125a622dea0dacea1ac624196c57b9bee1477b3f1a0"
+            "sha256": "2f5469d7e96eeb342a725125a622dea0dacea1ac624196c57b9bee1477b3f1a0",
+            "accelerator": "metal"
           },
           {
             "os": "linux",
             "arch": "arm64",
-            "accelerator": "cuda13",
-            "acceleratorVersion": null,
-            "variant": null,
             "filename": "mlxcel-26.6.15-linux-arm64-cuda13.baiengine",
             "size": 149978454,
-            "sha256": "c17cb13e4c8066f4b5ce1d0bd10ab3437ed35dccec3373b84ab02b2a3286f2a3"
+            "sha256": "c17cb13e4c8066f4b5ce1d0bd10ab3437ed35dccec3373b84ab02b2a3286f2a3",
+            "accelerator": "cuda13"
           },
           {
             "os": "linux",
             "arch": "x64",
-            "accelerator": "cuda13",
-            "acceleratorVersion": null,
-            "variant": null,
             "filename": "mlxcel-26.6.15-linux-x64-cuda13.baiengine",
             "size": 290241931,
-            "sha256": "bc1124312a366f13d15a831775c1e846a00e1c0bc0acf941419fe726624b1dc6"
+            "sha256": "bc1124312a366f13d15a831775c1e846a00e1c0bc0acf941419fe726624b1dc6",
+            "accelerator": "cuda13"
           }
         ],
         "upstream": "v0.3.0"
@@ -298,7 +292,7 @@
       ],
       "latest": {
         "version": "26.1.29",
-        "releaseDate": "2026-06-14",
+        "releaseDate": "2026-06-21",
         "packages": [
           {
             "os": "win32",
@@ -320,7 +314,7 @@
       ],
       "latest": {
         "version": "26.6.8",
-        "releaseDate": "2026-06-14",
+        "releaseDate": "2026-06-21",
         "packages": [
           {
             "os": "win32",
@@ -342,7 +336,7 @@
       ],
       "latest": {
         "version": "26.6.8",
-        "releaseDate": "2026-06-14",
+        "releaseDate": "2026-06-21",
         "packages": [
           {
             "os": "win32",
