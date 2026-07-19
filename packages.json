@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "lastUpdated": "2026-07-12T15:20:28Z",
+  "lastUpdated": "2026-07-19T00:45:26Z",
   "baseUrl": "https://github.com/lablup/backend.ai-go-engine-registry/releases/download",
   "engines": [
     {
@@ -39,17 +39,17 @@
           {
             "os": "linux",
             "arch": "arm64",
-            "filename": "llama-cpp-26.6.28-linux-arm64-cuda13-gb10.baiengine",
-            "size": 32039957,
-            "sha256": "0ff1008e8925db1e3b929ec37cee477543c48c13067714edbedf37211eb65fd9",
+            "filename": "llama-cpp-26.6.28-linux-arm64-cuda13-gh200.baiengine",
+            "size": 52196714,
+            "sha256": "bbdd4817cf733723af91628d0b7ad927e68aa886c8c69fee785c48a0287d9b2c",
             "accelerator": "cuda13"
           },
           {
             "os": "linux",
             "arch": "arm64",
-            "filename": "llama-cpp-26.6.28-linux-arm64-cuda13-gh200.baiengine",
-            "size": 52196714,
-            "sha256": "bbdd4817cf733723af91628d0b7ad927e68aa886c8c69fee785c48a0287d9b2c",
+            "filename": "llama-cpp-26.6.28-linux-arm64-cuda13-gb10.baiengine",
+            "size": 32039957,
+            "sha256": "0ff1008e8925db1e3b929ec37cee477543c48c13067714edbedf37211eb65fd9",
             "accelerator": "cuda13"
           },
           {
@@ -127,7 +127,7 @@
       ],
       "latest": {
         "version": "26.5.3",
-        "releaseDate": "2026-05-03",
+        "releaseDate": "2026-05-04",
         "minAppVersion": "1.6.0",
         "packages": [
           {
@@ -255,32 +255,26 @@
           {
             "os": "darwin",
             "arch": "arm64",
-            "accelerator": "metal",
-            "acceleratorVersion": null,
-            "variant": null,
             "filename": "mlxcel-26.7.12-darwin-arm64-metal.baiengine",
             "size": 51181626,
-            "sha256": "eb22dff305b9d6d8826c54f706c1630f42f38d52d76c6b75338c21ade4f182f6"
+            "sha256": "eb22dff305b9d6d8826c54f706c1630f42f38d52d76c6b75338c21ade4f182f6",
+            "accelerator": "metal"
           },
           {
             "os": "linux",
             "arch": "arm64",
-            "accelerator": "cuda13",
-            "acceleratorVersion": null,
-            "variant": null,
             "filename": "mlxcel-26.7.12-linux-arm64-cuda13.baiengine",
             "size": 80445118,
-            "sha256": "623ac9b0ab0702ea803d2eb971db2209d84202b45fd42e09469ac4266e4b0438"
+            "sha256": "623ac9b0ab0702ea803d2eb971db2209d84202b45fd42e09469ac4266e4b0438",
+            "accelerator": "cuda13"
           },
           {
             "os": "linux",
             "arch": "x64",
-            "accelerator": "cuda13",
-            "acceleratorVersion": null,
-            "variant": null,
             "filename": "mlxcel-26.7.12-linux-x64-cuda13.baiengine",
             "size": 136528436,
-            "sha256": "1533216f2ea5780a0ad03a385298e1f72f9e7bb54e906b8787362626cbef25a2"
+            "sha256": "1533216f2ea5780a0ad03a385298e1f72f9e7bb54e906b8787362626cbef25a2",
+            "accelerator": "cuda13"
           }
         ],
         "upstream": "v0.4.0"
@@ -298,7 +292,7 @@
       ],
       "latest": {
         "version": "26.1.29",
-        "releaseDate": "2026-07-12",
+        "releaseDate": "2026-07-19",
         "packages": [
           {
             "os": "win32",
@@ -320,7 +314,7 @@
       ],
       "latest": {
         "version": "26.6.8",
-        "releaseDate": "2026-07-12",
+        "releaseDate": "2026-07-19",
         "packages": [
           {
             "os": "win32",
@@ -342,7 +336,7 @@
       ],
       "latest": {
         "version": "26.6.8",
-        "releaseDate": "2026-07-12",
+        "releaseDate": "2026-07-19",
         "packages": [
           {
             "os": "win32",
