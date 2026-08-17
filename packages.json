@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "lastUpdated": "2026-08-16T00:18:52Z",
+  "lastUpdated": "2026-08-17T11:11:22Z",
   "baseUrl": "https://github.com/lablup/backend.ai-go-engine-registry/releases/download",
   "engines": [
     {
@@ -154,60 +154,72 @@
         "win32"
       ],
       "latest": {
-        "version": "26.5.3",
-        "releaseDate": "2026-05-03",
-        "minAppVersion": "1.6.0",
+        "version": "26.8.17",
+        "releaseDate": "2026-08-17",
+        "minAppVersion": "1.12.1",
         "packages": [
           {
             "os": "darwin",
             "arch": "arm64",
-            "filename": "sd-cpp-26.5.3-darwin-arm64-metal.baiengine",
-            "size": 19616155,
-            "sha256": "58c11278a12876eb30275e008fd0c1554ac52089a14a3478185b59d4f795de26",
-            "accelerator": "metal"
+            "accelerator": "metal",
+            "acceleratorVersion": null,
+            "variant": null,
+            "filename": "sd-cpp-26.8.17-darwin-arm64-metal.baiengine",
+            "size": 47557290,
+            "sha256": "b8973db21f23b32c003a5bc27f2c5350d4d18388962b5fe6656c682ed1c4fe68"
           },
           {
             "os": "linux",
             "arch": "x64",
-            "filename": "sd-cpp-26.5.3-linux-x64-cpu.baiengine",
-            "size": 10450221,
-            "sha256": "4b1097855ca4ae8f346aad8e5d2ab02705e1cb23d81a064d84ae1bd015bf738e",
-            "accelerator": "cpu"
+            "accelerator": "cpu",
+            "acceleratorVersion": null,
+            "variant": null,
+            "filename": "sd-cpp-26.8.17-linux-x64-cpu.baiengine",
+            "size": 31073700,
+            "sha256": "61ea45ac15141bebb104dff353962e31596e211cfbeef03d120c1fa2984145f6"
           },
           {
             "os": "linux",
             "arch": "x64",
-            "filename": "sd-cpp-26.5.3-linux-x64-vulkan.baiengine",
-            "size": 23430462,
-            "sha256": "17db443bdfef45516a743a5fce002909aff1637c8b3d3f7ef597d336c21e4540",
-            "accelerator": "vulkan"
+            "accelerator": "vulkan",
+            "acceleratorVersion": null,
+            "variant": null,
+            "filename": "sd-cpp-26.8.17-linux-x64-vulkan.baiengine",
+            "size": 43926565,
+            "sha256": "3c8596ec6d9ec737956c7379698c280393d0ccc5a657c04d4bdacf29af4a6a43"
           },
           {
             "os": "win32",
             "arch": "x64",
-            "filename": "sd-cpp-26.5.3-win32-x64-cpu.baiengine",
-            "size": 9424056,
-            "sha256": "c44213e41e3fb959cc01c90c1036172019f69c5d0e0c6e8e373698674735c0b3",
-            "accelerator": "cpu"
+            "accelerator": "cpu",
+            "acceleratorVersion": null,
+            "variant": null,
+            "filename": "sd-cpp-26.8.17-win32-x64-cpu.baiengine",
+            "size": 26771028,
+            "sha256": "9696b3f230f73b56f8bc6f942916363119466b223ffd5ddcdc0a2333380ce0a8"
           },
           {
             "os": "win32",
             "arch": "x64",
-            "filename": "sd-cpp-26.5.3-win32-x64-cuda12.baiengine",
-            "size": 336790113,
-            "sha256": "ed85ebadb97e79aa484b4e156bcb94a2f04f08647ed6277f96c640c4450775f9",
-            "accelerator": "cuda12"
+            "accelerator": "cuda12",
+            "acceleratorVersion": null,
+            "variant": null,
+            "filename": "sd-cpp-26.8.17-win32-x64-cuda12.baiengine",
+            "size": 339139913,
+            "sha256": "32b5fa87b6dd01831ccb2d8b0d032e6b5195f8621f1633bae5853a939f02715f"
           },
           {
             "os": "win32",
             "arch": "x64",
-            "filename": "sd-cpp-26.5.3-win32-x64-vulkan.baiengine",
-            "size": 26139797,
-            "sha256": "55cf32fcb65657e9900732ea2fd9d063207e670c1846b3902ce7b0c022cdf9ab",
-            "accelerator": "vulkan"
+            "accelerator": "vulkan",
+            "acceleratorVersion": null,
+            "variant": null,
+            "filename": "sd-cpp-26.8.17-win32-x64-vulkan.baiengine",
+            "size": 42324496,
+            "sha256": "050fdac6cfc0bd5dde7416ea55745d55d40d953281e70b5e26657192889cacdd"
           }
         ],
-        "upstream": "master-593-3d6064b"
+        "upstream": "master-820-de298c2"
       }
     },
     {
