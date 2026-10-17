@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "lastUpdated": "2026-10-11T00:49:46Z",
+  "lastUpdated": "2026-10-17T08:52:49Z",
   "baseUrl": "https://github.com/lablup/backend.ai-go-engine-registry/releases/download",
   "engines": [
     {
@@ -376,20 +376,36 @@
       "description": "NVIDIA CUDA 13 runtime libraries (cuBLAS, cuBLASLt, cuDNN)",
       "category": "cuda",
       "platforms": [
-        "win32"
+        "win32",
+        "linux"
       ],
       "latest": {
-        "version": "13.3.0",
-        "releaseDate": "2026-10-11",
+        "version": "13.4.0",
+        "releaseDate": "2026-10-17",
         "packages": [
+          {
+            "os": "linux",
+            "arch": "x64",
+            "filename": "cuda13-runtime-13.4.0-linux-x64.bairuntime",
+            "size": 438687565,
+            "sha256": "d47fe77ce623149fc0551f2898358a305cb2eec8ab88f6b259c543383f310a4b"
+          },
+          {
+            "os": "win32",
+            "arch": "arm64",
+            "filename": "cuda13-runtime-13.4.0-win32-arm64.bairuntime",
+            "size": 154161792,
+            "sha256": "bf7f8fecb85f59048fd7efbd795dabdfed77d17ec13d3904d3134dd103df1685"
+          },
           {
             "os": "win32",
             "arch": "x64",
-            "filename": "cuda13-runtime-13.3.0-win32-x64.bairuntime",
-            "size": 392314493,
-            "sha256": "5db370b8688d24093b32eedbe0ec977f0e75521a513f9f18e59fcb4aeee88ee9"
+            "filename": "cuda13-runtime-13.4.0-win32-x64.bairuntime",
+            "size": 424940505,
+            "sha256": "299167961e16f965db40eb4d9e08e36488446a58335020933ce178c95831714c"
           }
-        ]
+        ],
+        "upstream": "llama.cpp b11706"
       }
     }
   ]
