@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "lastUpdated": "2026-10-17T08:52:49Z",
+  "lastUpdated": "2026-10-23T01:06:08Z",
   "baseUrl": "https://github.com/lablup/backend.ai-go-engine-registry/releases/download",
   "engines": [
     {
@@ -292,36 +292,42 @@
         "linux"
       ],
       "latest": {
-        "version": "26.9.10",
-        "releaseDate": "2026-09-10",
-        "minAppVersion": "1.12.0",
+        "version": "26.10.23",
+        "releaseDate": "2026-10-23",
+        "minAppVersion": "1.13.0",
         "packages": [
           {
             "os": "darwin",
             "arch": "arm64",
-            "filename": "mlxcel-26.9.10-darwin-arm64-metal.baiengine",
-            "size": 55985002,
-            "sha256": "d71c529f46bef021fb5eaf7cf4d047868528ebea060c9d8ca03fdc3d53bcaeea",
-            "accelerator": "metal"
+            "accelerator": "metal",
+            "acceleratorVersion": null,
+            "variant": null,
+            "filename": "mlxcel-26.10.23-darwin-arm64-metal.baiengine",
+            "size": 61224118,
+            "sha256": "41b179ea39a4002bba8495d952c7e4ad90587a060d396d1c50d1245643afe7dd"
           },
           {
             "os": "linux",
             "arch": "arm64",
-            "filename": "mlxcel-26.9.10-linux-arm64-cuda13.baiengine",
-            "size": 97570603,
-            "sha256": "c1b8e894cf0ce31b77d2d2e00396dcd68c3598dcda6adf4973025eedd712699e",
-            "accelerator": "cuda13"
+            "accelerator": "cuda13",
+            "acceleratorVersion": null,
+            "variant": null,
+            "filename": "mlxcel-26.10.23-linux-arm64-cuda13.baiengine",
+            "size": 102533772,
+            "sha256": "c317a5acbf1f762895a850e2c3d0669f663d3f2bb77a930744e6edf4d18092ff"
           },
           {
             "os": "linux",
             "arch": "x64",
-            "filename": "mlxcel-26.9.10-linux-x64-cuda13.baiengine",
-            "size": 167240088,
-            "sha256": "d395817268747ab7db97ed5e0597f28d4882f13671b97623da15bca3ded419d5",
-            "accelerator": "cuda13"
+            "accelerator": "cuda13",
+            "acceleratorVersion": null,
+            "variant": null,
+            "filename": "mlxcel-26.10.23-linux-x64-cuda13.baiengine",
+            "size": 174386017,
+            "sha256": "6d9bc8c974e48bf3af03596e604c59f341a7018a02e758d2a3289997a400bbb9"
           }
         ],
-        "upstream": "v0.7.0"
+        "upstream": "v0.8.0-beta.1"
       }
     }
   ],
