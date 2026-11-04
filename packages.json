@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "lastUpdated": "2026-11-03T01:14:24Z",
+  "lastUpdated": "2026-11-04T03:27:06Z",
   "baseUrl": "https://github.com/lablup/backend.ai-go-engine-registry/releases/download",
   "engines": [
     {
@@ -309,8 +309,8 @@
         "linux"
       ],
       "latest": {
-        "version": "26.11.3",
-        "releaseDate": "2026-11-03",
+        "version": "26.11.4",
+        "releaseDate": "2026-11-04",
         "minAppVersion": "1.14.0",
         "packages": [
           {
@@ -319,9 +319,9 @@
             "accelerator": "metal",
             "acceleratorVersion": null,
             "variant": null,
-            "filename": "mlxcel-26.11.3-darwin-arm64-metal.baiengine",
-            "size": 63596891,
-            "sha256": "7e34d3a48395e10f33ca0366fa8f65e84d64666fe65e0b33ce8190304e863151"
+            "filename": "mlxcel-26.11.4-darwin-arm64-metal.baiengine",
+            "size": 63596889,
+            "sha256": "1d7b0e036ccece2693e8dd6ec512b28c48419aeda5289eb831b28e156fb57abd"
           },
           {
             "os": "linux",
@@ -329,9 +329,9 @@
             "accelerator": "cuda13",
             "acceleratorVersion": null,
             "variant": null,
-            "filename": "mlxcel-26.11.3-linux-arm64-cuda13.baiengine",
+            "filename": "mlxcel-26.11.4-linux-arm64-cuda13.baiengine",
             "size": 104253149,
-            "sha256": "23a96b66c69931e7c1572312364b3a13598a7f0b6b663cba9f46a5b0f6752005"
+            "sha256": "c9b8457d6fb2f91b236db183b287e370edb8becbb901b0201a45c7efe506a76e"
           },
           {
             "os": "linux",
@@ -339,9 +339,9 @@
             "accelerator": "cuda13",
             "acceleratorVersion": null,
             "variant": null,
-            "filename": "mlxcel-26.11.3-linux-x64-cuda13.baiengine",
+            "filename": "mlxcel-26.11.4-linux-x64-cuda13.baiengine",
             "size": 176409181,
-            "sha256": "5e055f41d9266a0571f0cccc369a5fd28ab8af5e98aca3c0aa17eecd389d3f02"
+            "sha256": "4f936a8a1ab940ce46dcda57aebdd7c87e1e00fd4f89b419de234ed386db15ea"
           }
         ],
         "upstream": "v0.8.1"
