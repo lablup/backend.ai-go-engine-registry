@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "lastUpdated": "2026-11-25T12:39:21Z",
+  "lastUpdated": "2026-11-25T12:49:06Z",
   "baseUrl": "https://github.com/lablup/backend.ai-go-engine-registry/releases/download",
   "engines": [
     {
@@ -469,44 +469,52 @@
         "win32"
       ],
       "latest": {
-        "version": "26.8.16",
-        "releaseDate": "2026-08-17",
-        "minAppVersion": "1.12.1",
+        "version": "26.11.25",
+        "releaseDate": "2026-11-25",
+        "minAppVersion": "2.0.0",
         "packages": [
           {
             "os": "darwin",
             "arch": "arm64",
-            "filename": "whisper-cpp-26.8.16-darwin-arm64-metal.baiengine",
-            "size": 4117141,
-            "sha256": "d8ca1db7c1737d5b8daae38fd1596c4d73c228741ad1eb5aec7e398e693206e1",
-            "accelerator": "metal"
+            "accelerator": "metal",
+            "acceleratorVersion": null,
+            "variant": null,
+            "filename": "whisper-cpp-26.11.25-darwin-arm64-metal.baiengine",
+            "size": 7508525,
+            "sha256": "154ef02e712dc03f59bc928ce3301d9cfd10b5e1bd7105a4439b0c9c9f897660"
           },
           {
             "os": "linux",
             "arch": "x64",
-            "filename": "whisper-cpp-26.8.16-linux-x64-cpu.baiengine",
-            "size": 2021030,
-            "sha256": "8ea3fc2a07bd4f3a60aeb66e6c15029d6f8e929c8969d793499d27ca04a5b342",
-            "accelerator": "cpu"
+            "accelerator": "cpu",
+            "acceleratorVersion": null,
+            "variant": null,
+            "filename": "whisper-cpp-26.11.25-linux-x64-cpu.baiengine",
+            "size": 2416854,
+            "sha256": "7529d74eb9794d18949cf41ce28190035476a12e6c614d84b3b3160992c7becd"
           },
           {
             "os": "win32",
             "arch": "x64",
-            "filename": "whisper-cpp-26.8.16-win32-x64-cpu.baiengine",
-            "size": 5093320,
-            "sha256": "c252141e686e942cf6df81121363e7d58cf87d75f0b86f7f15b7259f937e60a5",
-            "accelerator": "cpu"
+            "accelerator": "cpu",
+            "acceleratorVersion": null,
+            "variant": null,
+            "filename": "whisper-cpp-26.11.25-win32-x64-cpu.baiengine",
+            "size": 6912134,
+            "sha256": "a081f38e1b1ddac98137623baeb431ae555206341e315d6b88af1c9fea1e7a06"
           },
           {
             "os": "win32",
             "arch": "x64",
-            "filename": "whisper-cpp-26.8.16-win32-x64-cuda12.baiengine",
-            "size": 667519511,
-            "sha256": "c980450a95210897c1f48053310f328ce3311969cabc4467caf2033c65ba53f3",
-            "accelerator": "cuda12"
+            "accelerator": "cuda12",
+            "acceleratorVersion": null,
+            "variant": null,
+            "filename": "whisper-cpp-26.11.25-win32-x64-cuda12.baiengine",
+            "size": 733354770,
+            "sha256": "9adc2faa8fe294c41cc2e42bd05cae03510eb55d4d17ebbd7a6c18cb3f6c6f1f"
           }
         ],
-        "upstream": "v1.9.2"
+        "upstream": "b5907"
       }
     },
     {
