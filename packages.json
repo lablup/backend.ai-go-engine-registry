@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "lastUpdated": "2026-11-22T18:16:54Z",
+  "lastUpdated": "2026-11-25T01:28:57Z",
   "baseUrl": "https://github.com/lablup/backend.ai-go-engine-registry/releases/download",
   "engines": [
     {
@@ -309,8 +309,8 @@
         "linux"
       ],
       "latest": {
-        "version": "26.11.18",
-        "releaseDate": "2026-11-22",
+        "version": "26.11.25",
+        "releaseDate": "2026-11-25",
         "minAppVersion": "2.0.0",
         "packages": [
           {
@@ -319,9 +319,9 @@
             "accelerator": "metal",
             "acceleratorVersion": null,
             "variant": null,
-            "filename": "mlxcel-26.11.18-darwin-arm64-metal.baiengine",
-            "size": 63939596,
-            "sha256": "8a0be47ee81d2995046f80fbc276e99903dc4ccaadd72ff7202c550dac00d218"
+            "filename": "mlxcel-26.11.25-darwin-arm64-metal.baiengine",
+            "size": 65032254,
+            "sha256": "1a4cf491cbfdcbc937200ab9d59fed2289993556c7872250fa63f218c017fdab"
           },
           {
             "os": "linux",
@@ -329,9 +329,9 @@
             "accelerator": "cuda13",
             "acceleratorVersion": null,
             "variant": null,
-            "filename": "mlxcel-26.11.18-linux-arm64-cuda13.baiengine",
-            "size": 105158196,
-            "sha256": "6ce113747db6f1f69b9ed9d7ce95333403961ad45c8182388d38412a33d26f8f"
+            "filename": "mlxcel-26.11.25-linux-arm64-cuda13.baiengine",
+            "size": 105694529,
+            "sha256": "60e2f72592be42f106b871ff95b301a96826fa91e8e6dcef49645902aff76325"
           },
           {
             "os": "linux",
@@ -339,12 +339,12 @@
             "accelerator": "cuda13",
             "acceleratorVersion": null,
             "variant": null,
-            "filename": "mlxcel-26.11.18-linux-x64-cuda13.baiengine",
-            "size": 178025169,
-            "sha256": "2404594f6744748487b4481323a71b42570c58fe16eed16096a1f6a997152b32"
+            "filename": "mlxcel-26.11.25-linux-x64-cuda13.baiengine",
+            "size": 178175557,
+            "sha256": "f85b3b2924e83005b2c064dab0dfda77ab2819095300beb22e9c9c11175429b4"
           }
         ],
-        "upstream": "v0.9.0-beta.1"
+        "upstream": "v0.9.0-beta.2"
       }
     }
   ],
