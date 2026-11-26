@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "lastUpdated": "2026-11-25T12:49:06Z",
+  "lastUpdated": "2026-11-26T15:34:55Z",
   "baseUrl": "https://github.com/lablup/backend.ai-go-engine-registry/releases/download",
   "engines": [
     {
@@ -649,6 +649,82 @@
           }
         ],
         "upstream": "llama.cpp b12722"
+      }
+    }
+  ],
+  "kindEngines": [
+    {
+      "id": "speech-cpp",
+      "name": "speech.cpp",
+      "description": "Speech synthesis and recognition engine for GGUF speech models",
+      "supportedFormats": [
+        "speech-gguf"
+      ],
+      "platforms": [
+        "darwin",
+        "linux",
+        "win32"
+      ],
+      "kind": "speech",
+      "latest": {
+        "version": "26.11.26",
+        "releaseDate": "2026-11-26",
+        "minAppVersion": "2.0.4",
+        "packages": [
+          {
+            "os": "darwin",
+            "arch": "arm64",
+            "accelerator": "metal",
+            "acceleratorVersion": null,
+            "variant": null,
+            "filename": "speech-cpp-26.11.26-darwin-arm64-metal.baiengine",
+            "size": 3500059,
+            "sha256": "5775072624cb0f52512acd4c5eaee1ec07461a413103b30f9a1a9f6dc49927ec"
+          },
+          {
+            "os": "linux",
+            "arch": "x64",
+            "accelerator": "cpu",
+            "acceleratorVersion": null,
+            "variant": null,
+            "filename": "speech-cpp-26.11.26-linux-x64-cpu.baiengine",
+            "size": 3784188,
+            "sha256": "4dab35531d1f79dfbe5aab278c74ff48ec7399cdae1e9b32c3cb3233b320c10c"
+          },
+          {
+            "os": "linux",
+            "arch": "x64",
+            "accelerator": "vulkan",
+            "acceleratorVersion": null,
+            "variant": null,
+            "filename": "speech-cpp-26.11.26-linux-x64-vulkan.baiengine",
+            "size": 16663666,
+            "sha256": "e660ed4779ba4a6e1dd00c6afc0a19c8d9e7bd77d2b14a8de517229b6cfb7c71"
+          },
+          {
+            "os": "win32",
+            "arch": "x64",
+            "accelerator": "vulkan",
+            "acceleratorVersion": null,
+            "variant": null,
+            "filename": "speech-cpp-26.11.26-win32-x64-vulkan.baiengine",
+            "size": 15247922,
+            "sha256": "119ca6143092529bf52cd0a157c95f4986821685bd138e333e81041566f49507"
+          }
+        ],
+        "upstream": "v0.11.2",
+        "architectures": [
+          "qwen3-tts",
+          "irodori-tts",
+          "drama3",
+          "fastconformer",
+          "qwen3-asr",
+          "nemotron-transcribe",
+          "silero-vad",
+          "sortformer",
+          "semamba",
+          "haru"
+        ]
       }
     }
   ]
